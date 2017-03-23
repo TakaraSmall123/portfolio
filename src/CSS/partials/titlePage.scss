@@ -1,0 +1,98 @@
+
+nav {
+flex-direction: row;
+display:flex;
+font-size: 1rem;
+justify-content: flex-end;
+margin-right: 60px;
+padding-top:15px;
+	p {
+	margin: 5px;
+	}
+		span{
+			font-weight:bold;
+		}
+}
+
+.titlePage {
+background-color: white;
+height: 100vh;
+}
+
+.headline{
+background-color: black;
+height: 100vh;
+margin-left:60px;
+margin-right:60px;
+margin-top:20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+	p{
+		color:white;
+	}
+}
+
+h1 {
+padding:0px;
+color:white;
+font-size: 20rem;
+margin:0px;
+}
+
+.fa-bars{
+padding-left:5px;
+}
+
+.T:hover{
+transform: scale(1.2);
+transition: all 0.5s;
+-webkit-text-fill-color: transparent;
+background-image: url("../../src/images/test.jpg");
+background-size: 100%;
+background-position:cover;
+-webkit-background-clip: text;
+}
+
+.A:hover{
+transform: scale(1.2);
+transition: all 0.5s;
+-webkit-text-fill-color: transparent;
+background-image: url("../../src/images/background.jpg");
+background-size: 100%;
+background-position:cover;
+-webkit-background-clip: text;
+}
+
+.K:hover{
+transform: scale(1.2);
+transition: all 0.5s;
+-webkit-text-fill-color: transparent;
+background-image: url("../../src/images/brain_new.png");
+background-size: 100%;
+background-position:cover;
+-webkit-background-clip: text;
+}
+
+.R:hover{
+transform: scale(1.2);
+transition: all 0.5s;
+-webkit-text-fill-color: transparent;
+background-image: url("../../src/images/cake.jpg");
+background-size: 100%;
+background-position:cover;
+-webkit-background-clip: text;
+}
+
+.fa-chevron-down {
+	padding-top:45px;
+	color: white;
+	font-size: 40px;
+}
+
+.starts {
+	background-color: blue;
+	font-size:24px;
+}
+
