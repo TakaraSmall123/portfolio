@@ -1,6 +1,55 @@
-.starts {
-	background-color: blue;
+.aboutMe {
+border: 2px solid red;
+height:100vh;
 }
 
+.aboutMe h2 {
+text-align: center;
+font-size: 3rem;
+margin-top:60px;
+}
 
+.aboutMeIntro {
+	text-align: center;
+}
 
+.aboutMeBox {
+flex-direction: row;
+display:flex;
+width:70%;
+margin:auto;
+}
+
+.fa-chevron-circle-down {
+	color:black;
+	margin:auto;
+}
+
+.position {
+width:50%;
+border: 2px solid red;
+padding: 5px;
+}
+
+.skills {
+width:50%;
+border: 2px solid red;
+padding: 5px;
+}
+
+.icons {
+display: flex;
+padding-top:20px;
+padding-bottom: 20px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width:70%;
+margin:auto;
+border: 2px solid red;
+font-size: 30px;
+}
+
+.fa-chevron-down {
+	color: purple;
+}

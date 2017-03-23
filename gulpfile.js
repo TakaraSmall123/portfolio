@@ -49,7 +49,7 @@ gulp.task('styles', () => {
 });
 
 gulp.task('es6', () => {
-    return browserify('./src/app.js', { debug: true })
+    return browserify('./src/javascript/app.js', { debug: true })
     .transform('babelify', {
         sourceMaps: true,
         presets: [

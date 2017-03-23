@@ -1,13 +1,19 @@
 @import 'partials/titlePage';
 @import 'partials/aboutPage';
+@import 'partials/examplePage';
+@import 'partials/footer';
 @import 'partials/setup';
 // @import 'partials/answerPage';
 // @import 'partials/fightPage';
 
 html {
-	font-size: 62.5%;
+font-size: 62.5%;
 }
 
 body {
 
+}
+
+h2{
+	text-align: center;
 }

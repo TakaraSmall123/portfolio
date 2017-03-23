@@ -4,14 +4,24 @@ nav {
   display: -ms-flexbox;
   display: flex;
   font-size: 1rem;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
-  margin-right: 60px;
-  padding-top: 15px; }
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  margin-left: 60px;
+  -ms-flex-align: center;
+      align-items: center; }
   nav p {
-    margin: 5px; }
+    margin: 5px;
+    font-size: 1rem; }
   nav span {
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 1rem; }
+
+.logo {
+  font-weight: bold;
+  background-color: orange;
+  padding: 11px;
+  font-size: 1rem;
+  margin-right: 50%; }
 
 .titlePage {
   background-color: white;
@@ -19,7 +29,7 @@ nav {
 
 .headline {
   background-color: black;
-  height: 100vh;
+  height: 85vh;
   margin-left: 60px;
   margin-right: 60px;
   margin-top: 20px;
@@ -37,11 +47,13 @@ nav {
 h1 {
   padding: 0px;
   color: white;
-  font-size: 20rem;
+  font-size: 18rem;
+  font-weight: bold;
   margin: 0px; }
 
 .fa-bars {
-  padding-left: 5px; }
+  padding-left: 5px;
+  font-size: 20px; }
 
 .T:hover {
   transform: scale(1.2);
@@ -79,16 +91,107 @@ h1 {
   background-position: cover;
   -webkit-background-clip: text; }
 
-.fa-chevron-down {
+.title {
+  padding-top: 1px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0px; }
+
+.headline .fa-chevron-down {
   padding-top: 45px;
   color: white;
-  font-size: 40px; }
+  background-size: 30px; }
 
-.starts {
-  background-color: blue; }
+.aboutMe {
+  border: 2px solid red;
+  height: 100vh; }
 
-.starts {
-  background-color: blue; }
+.aboutMe h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 60px; }
+
+.aboutMeIntro {
+  text-align: center; }
+
+.aboutMeBox {
+  -ms-flex-direction: row;
+      flex-direction: row;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: auto; }
+
+.fa-chevron-circle-down {
+  color: black;
+  margin: auto; }
+
+.position {
+  width: 50%;
+  border: 2px solid red;
+  padding: 5px; }
+
+.skills {
+  width: 50%;
+  border: 2px solid red;
+  padding: 5px; }
+
+.icons {
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 70%;
+  margin: auto;
+  border: 2px solid red;
+  font-size: 30px; }
+
+.fa-chevron-down {
+  color: purple; }
+
+.portfolioExamples {
+  height: 100vh; }
+
+.websites {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  .websites img {
+    width: 25%;
+    padding: 10px; }
+
+.zombie {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
+
+.aboutMe .fa-chevron-down {
+  color: black;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-top: 100px; }
+
+.portfolioExamples h2 {
+  padding-top: 10px; }
+
+.footer {
+  border: 2px solid green; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
@@ -223,8 +326,99 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 html {
   font-size: 62.5%; }
 
-.starts {
-  background-color: blue; }
+h2 {
+  text-align: center; }
+
+.aboutMe {
+  border: 2px solid red;
+  height: 100vh; }
+
+.aboutMe h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 60px; }
+
+.aboutMeIntro {
+  text-align: center; }
+
+.aboutMeBox {
+  -ms-flex-direction: row;
+      flex-direction: row;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: auto; }
+
+.fa-chevron-circle-down {
+  color: black;
+  margin: auto; }
+
+.position {
+  width: 50%;
+  border: 2px solid red;
+  padding: 5px; }
+
+.skills {
+  width: 50%;
+  border: 2px solid red;
+  padding: 5px; }
+
+.icons {
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 70%;
+  margin: auto;
+  border: 2px solid red;
+  font-size: 30px; }
+
+.fa-chevron-down {
+  color: purple; }
+
+.portfolioExamples {
+  height: 100vh; }
+
+.websites {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  .websites img {
+    width: 25%;
+    padding: 10px; }
+
+.zombie {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: end;
+      justify-content: flex-end; }
+
+.aboutMe .fa-chevron-down {
+  color: black;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-top: 100px; }
+
+.portfolioExamples h2 {
+  padding-top: 10px; }
+
+.footer {
+  border: 2px solid green; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
@@ -362,14 +556,24 @@ nav {
   display: -ms-flexbox;
   display: flex;
   font-size: 1rem;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
-  margin-right: 60px;
-  padding-top: 15px; }
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  margin-left: 60px;
+  -ms-flex-align: center;
+      align-items: center; }
   nav p {
-    margin: 5px; }
+    margin: 5px;
+    font-size: 1rem; }
   nav span {
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 1rem; }
+
+.logo {
+  font-weight: bold;
+  background-color: orange;
+  padding: 11px;
+  font-size: 1rem;
+  margin-right: 50%; }
 
 .titlePage {
   background-color: white;
@@ -377,7 +581,7 @@ nav {
 
 .headline {
   background-color: black;
-  height: 100vh;
+  height: 85vh;
   margin-left: 60px;
   margin-right: 60px;
   margin-top: 20px;
@@ -395,11 +599,13 @@ nav {
 h1 {
   padding: 0px;
   color: white;
-  font-size: 20rem;
+  font-size: 18rem;
+  font-weight: bold;
   margin: 0px; }
 
 .fa-bars {
-  padding-left: 5px; }
+  padding-left: 5px;
+  font-size: 20px; }
 
 .T:hover {
   transform: scale(1.2);
@@ -437,10 +643,13 @@ h1 {
   background-position: cover;
   -webkit-background-clip: text; }
 
-.fa-chevron-down {
+.title {
+  padding-top: 1px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0px; }
+
+.headline .fa-chevron-down {
   padding-top: 45px;
   color: white;
-  font-size: 40px; }
-
-.starts {
-  background-color: blue; }
+  background-size: 30px; }

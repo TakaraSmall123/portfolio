@@ -1,18 +1,34 @@
-
 nav {
 flex-direction: row;
 display:flex;
 font-size: 1rem;
-justify-content: flex-end;
-margin-right: 60px;
-padding-top:15px;
+justify-content: flex-start;
+margin-left: 60px;
+align-items:center;
 	p {
 	margin: 5px;
+	font-size: 1rem;
 	}
 		span{
 			font-weight:bold;
+			font-size: 1rem;
+
 		}
 }
+
+//nav icons
+.social span{
+	// padding-right:5px;
+}
+
+.logo{
+font-weight: bold;
+background-color: orange;
+padding:11px;
+font-size: 1rem;
+margin-right:50%;
+}
+//nav icons
 
 .titlePage {
 background-color: white;
@@ -21,7 +37,7 @@ height: 100vh;
 
 .headline{
 background-color: black;
-height: 100vh;
+height: 85vh;
 margin-left:60px;
 margin-right:60px;
 margin-top:20px;
@@ -37,12 +53,14 @@ align-items: center;
 h1 {
 padding:0px;
 color:white;
-font-size: 20rem;
+font-size: 18rem;
+font-weight:bold;
 margin:0px;
 }
 
 .fa-bars{
 padding-left:5px;
+font-size:20px;
 }
 
 .T:hover{
@@ -85,14 +103,20 @@ background-position:cover;
 -webkit-background-clip: text;
 }
 
-.fa-chevron-down {
-	padding-top:45px;
-	color: white;
-	font-size: 40px;
+.title {
+padding-top:1px;
+font-size: 2rem;
+font-weight:bold;
+margin:0px;
 }
 
-.starts {
-	background-color: blue;
-	font-size:24px;
+.headline p{
+	// color:#FF77FF;
+}
+
+.headline .fa-chevron-down {
+padding-top:45px;
+color: white;
+background-size: 30px;
 }
 

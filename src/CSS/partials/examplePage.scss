@@ -1,0 +1,32 @@
+.portfolioExamples{
+height: 100vh;
+}
+
+.websites {
+display: flex;
+flex-direction:column;
+	img{
+		width:25%;
+		padding: 10px;
+	}
+}
+
+.zombie {
+display: flex;
+flex-direction:column;
+justify-content: flex-end;
+}
+
+.aboutMe .fa-chevron-down{
+color:black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top:100px;
+}
+
+.portfolioExamples h2{
+padding-top:10px;
+}
+
