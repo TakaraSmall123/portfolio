@@ -7,26 +7,48 @@ margin-left: 60px;
 align-items:center;
 	p {
 	margin: 5px;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	}
 		span{
 			font-weight:bold;
-			font-size: 1rem;
-
+			font-size: 1.5rem;
+			padding:2px;
+			// background-color: lightblue;
 		}
 }
 
+span:hover{
+background-color: lightblue;
+cursor: pointer; cursor: hand;
+}
 //nav icons
-.social span{
-	// padding-right:5px;
+
+.fa-twitter {
+padding:6px;
+}
+
+.fa-linkedin {
+padding:6px;
 }
 
 .logo{
 font-weight: bold;
-background-color: orange;
-padding:11px;
-font-size: 1rem;
-margin-right:50%;
+margin-right:35%;
+padding:5px 15px 5px 15px;
+font-size: 1.5rem;
+border: 5px solid black;
+}
+
+.logo:hover{
+background-color: lightblue;
+padding:5px 15px 5px 15px;
+font-size: 1.5rem;
+// border-radius: 50%;
+}
+
+.fa-bars{
+padding-left:80px;
+font-size:20px;
 }
 //nav icons
 
@@ -35,19 +57,42 @@ background-color: white;
 height: 100vh;
 }
 
-.headline{
+.headline {
 background-color: black;
 height: 85vh;
 margin-left:60px;
 margin-right:60px;
-margin-top:20px;
+// margin-top:20px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-	p{
-		color:white;
-	}
+
+}
+
+.title {
+padding-top:1px;
+font-size: 2rem;
+font-weight:bold;
+padding-bottom:15px;
+margin:0px;
+color: white;
+font-family: 'Montserrat', sans-serif;
+}
+
+.aka {
+font-size: 0.5rem;
+color: white;
+font-family: 'Montserrat', sans-serif;
+margin-bottom:50px;
+}
+
+.aka:hover {
+
+}
+
+.headline h3{
+	color:white; 
 }
 
 h1 {
@@ -56,12 +101,11 @@ color:white;
 font-size: 18rem;
 font-weight:bold;
 margin:0px;
+// font-family: 'Lato', sans-serif;
+// font-family: 'Roboto', sans-serif;
 }
 
-.fa-bars{
-padding-left:5px;
-font-size:20px;
-}
+
 
 .T:hover{
 transform: scale(1.2);
@@ -103,20 +147,10 @@ background-position:cover;
 -webkit-background-clip: text;
 }
 
-.title {
-padding-top:1px;
-font-size: 2rem;
-font-weight:bold;
-margin:0px;
-}
-
-.headline p{
-	// color:#FF77FF;
-}
-
 .headline .fa-chevron-down {
-padding-top:45px;
+margin-top:30px;
 color: white;
 background-size: 30px;
+
 }
 

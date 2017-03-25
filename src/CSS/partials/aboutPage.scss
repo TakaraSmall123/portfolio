@@ -1,16 +1,17 @@
 .aboutMe {
-border: 2px solid red;
 height:100vh;
 }
 
 .aboutMe h2 {
 text-align: center;
-font-size: 3rem;
+font-size: 5rem;
+margin-bottom:0px;
 margin-top:60px;
 }
 
 .aboutMeIntro {
-	text-align: center;
+text-align: center;
+font-size: 12px;
 }
 
 .aboutMeBox {
@@ -18,38 +19,95 @@ flex-direction: row;
 display:flex;
 width:70%;
 margin:auto;
+padding-top:20px;
 }
 
-.fa-chevron-circle-down {
-	color:black;
-	margin:auto;
+.aboutMe .fa-chevron-down{
+color:black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 .position {
 width:50%;
-border: 2px solid red;
 padding: 5px;
+// border: 2px solid red;
+}
+
+.text {
+width:80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+// border: 2px solid red;
+margin:auto;
+}
+
+.introWords{
+font-size:1.5rem;
+font-family: 'Montserrat', sans-serif;
 }
 
 .skills {
 width:50%;
-border: 2px solid red;
-padding: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.skills img {
+width:68%;
+border-radius: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 .icons {
 display: flex;
 padding-top:20px;
 padding-bottom: 20px;
-flex-direction: row;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 width:70%;
+color:black;
 margin:auto;
-border: 2px solid red;
-font-size: 30px;
+font-size: 60px;
 }
 
-.fa-chevron-down {
-	color: purple;
+.profileTitle{
+font-size:2rem;
+font-weight:bold;
+text-align: center;
 }
+.profileTitle span{
+	display:block;
+}
+
+// .time  {
+// flex-direction: row;
+// display: flex;
+
+// }
+
+.number {
+color:black;
+font-size: 6rem;
+width:100%;
+// border: 2px solid red;
+text-align:right;
+}
+
+.years {
+font-size: 2rem;
+// border: 2px solid red;
+}
+// .year{
+// 	font-size:5rem;
+// }

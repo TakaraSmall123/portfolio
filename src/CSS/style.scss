@@ -1,8 +1,9 @@
 @import 'partials/titlePage';
 @import 'partials/aboutPage';
+@import 'partials/iconPage';
 @import 'partials/examplePage';
 @import 'partials/footer';
-@import 'partials/setup';
+@import 'partials/setupPage';
 // @import 'partials/answerPage';
 // @import 'partials/fightPage';
 
@@ -11,7 +12,7 @@ font-size: 62.5%;
 }
 
 body {
-
+// font-family: 'Roboto', sans-serif;
 }
 
 h2{

@@ -5,11 +5,18 @@ height: 100vh;
 .websites {
 display: flex;
 flex-direction:column;
+justify-content:center;
+align-items:center;
 	img{
-		width:25%;
+		width:24%;
 		padding: 10px;
 	}
 }
+
+// .pairing{
+
+// flex-direction:row;
+// }
 
 .zombie {
 display: flex;
@@ -17,16 +24,9 @@ flex-direction:column;
 justify-content: flex-end;
 }
 
-.aboutMe .fa-chevron-down{
-color:black;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding-top:100px;
-}
 
 .portfolioExamples h2{
-padding-top:10px;
+font-size: 3rem;
+// padding-top:10px;
 }
 
