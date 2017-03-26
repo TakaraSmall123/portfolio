@@ -1,3 +1,7 @@
+.titlePage {
+  background-color: white;
+  height: 100vh; }
+
 nav {
   -ms-flex-direction: row;
       flex-direction: row;
@@ -7,30 +11,31 @@ nav {
   -ms-flex-pack: start;
       justify-content: flex-start;
   margin-left: 60px;
+  margin-right: 60px;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
   nav p {
-    margin: 5px;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    font-weight: bold; }
   nav span {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 2px; }
 
-span:hover {
-  background-color: lightblue;
-  cursor: pointer;
-  cursor: hand; }
+.titlePage .icon {
+  padding: 10px 0px 10px 10px;
+  font-size: 1.3rem;
+  color: black; }
 
-.fa-twitter {
-  padding: 6px; }
-
-.fa-linkedin {
-  padding: 6px; }
+.titlePage .icon:hover {
+  padding: 10px;
+  font-size: 1.3rem;
+  background-color: lightblue; }
 
 .logo {
   font-weight: bold;
-  margin-right: 35%;
   padding: 5px 15px 5px 15px;
   font-size: 1.5rem;
   border: 5px solid black; }
@@ -39,14 +44,6 @@ span:hover {
   background-color: lightblue;
   padding: 5px 15px 5px 15px;
   font-size: 1.5rem; }
-
-.fa-bars {
-  padding-left: 80px;
-  font-size: 20px; }
-
-.titlePage {
-  background-color: white;
-  height: 100vh; }
 
 .headline {
   background-color: black;
@@ -63,25 +60,40 @@ span:hover {
       align-items: center; }
 
 .title {
-  padding-top: 1px;
+  padding-top: 20px;
   font-size: 2rem;
-  font-weight: bold;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   margin: 0px;
-  color: white;
-  font-family: 'Montserrat', sans-serif; }
+  color: white; }
+
+.titleDesigner, .titleCreator {
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+  margin: 0px;
+  color: white; }
 
 .aka {
-  font-size: 0.5rem;
+  font-size: 1.5rem;
   color: white;
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 50px; }
+  padding: 10px 45px 10px 45px;
+  margin-bottom: 10px;
+  border: 2px solid white;
+  font-weight: bold; }
+
+.aka:hover {
+  border: 2px solid black;
+  font-size: 1.5rem;
+  color: black;
+  background-color: white;
+  font-weight: bold; }
+
+a {
+  text-decoration: none; }
 
 .headline h3 {
   color: white; }
 
 h1 {
-  padding: 0px;
   color: white;
   font-size: 18rem;
   font-weight: bold;
@@ -126,16 +138,32 @@ h1 {
 .headline .fa-chevron-down {
   margin-top: 30px;
   color: white;
-  background-size: 30px; }
+  background-size: 30px;
+  font-size: 1.5rem; }
 
 .aboutMe {
-  height: 100vh; }
+  padding-bottom: 10vh;
+  padding-top: 10vh; }
+  .aboutMe button {
+    padding: 10px 45px 10px 45px;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    font-weight: bold; }
+  .aboutMe button:hover {
+    padding: 10px 45px 10px 45px;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold; }
 
 .aboutMe h2 {
-  text-align: center;
-  font-size: 5rem;
-  margin-bottom: 0px;
-  margin-top: 60px; }
+  color: lightblue;
+  font-size: 1rem;
+  font-weight: bold; }
 
 .aboutMeIntro {
   text-align: center;
@@ -147,8 +175,17 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   width: 70%;
-  margin: auto;
-  padding-top: 20px; }
+  margin: auto; }
+
+.resume {
+  -ms-flex-direction: row;
+      flex-direction: row;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: center;
+      justify-content: center;
+  font-weight: bold; }
 
 .aboutMe .fa-chevron-down {
   color: black;
@@ -159,7 +196,8 @@ h1 {
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  font-size: 2rem; }
 
 .position {
   width: 50%;
@@ -178,8 +216,7 @@ h1 {
   margin: auto; }
 
 .introWords {
-  font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif; }
+  font-size: 2rem; }
 
 .skills {
   width: 50%;
@@ -194,7 +231,6 @@ h1 {
 
 .skills img {
   width: 68%;
-  border-radius: 50%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -204,29 +240,19 @@ h1 {
   -ms-flex-align: center;
       align-items: center; }
 
-.icons {
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  width: 70%;
-  color: black;
-  margin: auto;
-  font-size: 60px; }
-
 .profileTitle {
   font-size: 2rem;
   font-weight: bold;
-  text-align: center; }
+  text-align: left; }
 
 .profileTitle span {
   display: block; }
+
+.time {
+  -ms-flex-direction: row;
+      flex-direction: row;
+  display: -ms-flexbox;
+  display: flex; }
 
 .number {
   color: black;
@@ -237,35 +263,166 @@ h1 {
 .years {
   font-size: 2rem; }
 
-.portfolioExamples {
-  height: 100vh; }
-
-.websites {
-  display: -ms-flexbox;
-  display: flex;
+.iconPage {
+  width: 100%;
   -ms-flex-direction: column;
       flex-direction: column;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding-bottom: 15vh;
+  padding-top: 15vh;
+  background-color: #E8E8E8; }
+  .iconPage .fa-chevron-down {
+    font-size: 2rem;
+    color: black;
+    margin: auto; }
+
+.skillIcons {
+  width: 100%; }
+  .skillIcons span {
+    padding: 0px 20px 0px 20px; }
+  .skillIcons p {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    font-weight: bold; }
+
+.iconFirstRow {
+  font-size: 9rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center; }
-  .websites img {
-    width: 24%;
-    padding: 10px; }
+      align-items: center;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
 
-.zombie {
+.iconSecondRow {
+  font-size: 9rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%; }
+
+.iconPage h2 {
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: 'Roboto'; }
+
+.fa-chevron-down {
+  font-size: 2rem;
+  padding-top: 30px; }
+
+.news {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px; }
+
+.portImage {
+  width: 40%;
+  text-align: center; }
+  .portImage img {
+    width: 90%; }
+
+.portImage2 {
+  width: 40%;
+  text-align: center; }
+  .portImage2 img {
+    width: 100%; }
+
+.example1 {
+  width: 40%;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-size: 1.5rem; }
+  .example1 button {
+    padding: 10px 45px 10px 45px;
+    border: 2px solid black;
+    background-color: white;
+    font-weight: bold; }
+
+.portfolioExamples h2 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px; }
+
+.portfolioExamples button {
+  font-weight: bold;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 1.5rem;
+  width: 20%;
+  text-align: center; }
+
+.websiteExamples {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  margin-left: 20px; }
+  .websiteExamples img {
+    width: 80%;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center; }
+  .websiteExamples p {
+    font-size: 1.5rem;
+    width: 70%; }
+  .websiteExamples h3 {
+    font-size: 3rem;
+    margin: 0; }
+
+.websiteExamplesOther img {
+  width: 80%;
+  padding: 10px;
+  padding-top: 10px;
+  text-align: center; }
+
+.websiteExamplesOther p {
+  font-size: 1.5rem;
+  width: 70%; }
+
+.websiteExamplesOther h3 {
+  font-size: 3rem;
+  margin: 0; }
+
+.imgExamples {
+  text-align: center;
+  width: 80%; }
+
+.apocalypse {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-pack: end;
-      justify-content: flex-end; }
-
-.portfolioExamples h2 {
-  font-size: 3rem; }
+      flex-direction: column; }
 
 .footer {
-  border: 2px solid green; }
+  background-color: black;
+  height: 10vh; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
@@ -400,17 +557,39 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 html {
   font-size: 62.5%; }
 
+body {
+  font-family: Raleway,Helvetica,sans-serif; }
+
 h2 {
-  text-align: center; }
+  font-weight: 700;
+  font-size: 4rem; }
+
+a {
+  text-decoration: none; }
 
 .aboutMe {
-  height: 100vh; }
+  padding-bottom: 10vh;
+  padding-top: 10vh; }
+  .aboutMe button {
+    padding: 10px 45px 10px 45px;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    font-weight: bold; }
+  .aboutMe button:hover {
+    padding: 10px 45px 10px 45px;
+    font-size: 1.5rem;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold; }
 
 .aboutMe h2 {
-  text-align: center;
-  font-size: 5rem;
-  margin-bottom: 0px;
-  margin-top: 60px; }
+  color: lightblue;
+  font-size: 1rem;
+  font-weight: bold; }
 
 .aboutMeIntro {
   text-align: center;
@@ -422,8 +601,17 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   width: 70%;
-  margin: auto;
-  padding-top: 20px; }
+  margin: auto; }
+
+.resume {
+  -ms-flex-direction: row;
+      flex-direction: row;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-pack: center;
+      justify-content: center;
+  font-weight: bold; }
 
 .aboutMe .fa-chevron-down {
   color: black;
@@ -434,7 +622,8 @@ h2 {
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  font-size: 2rem; }
 
 .position {
   width: 50%;
@@ -453,8 +642,7 @@ h2 {
   margin: auto; }
 
 .introWords {
-  font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif; }
+  font-size: 2rem; }
 
 .skills {
   width: 50%;
@@ -469,7 +657,6 @@ h2 {
 
 .skills img {
   width: 68%;
-  border-radius: 50%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -479,29 +666,19 @@ h2 {
   -ms-flex-align: center;
       align-items: center; }
 
-.icons {
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  width: 70%;
-  color: black;
-  margin: auto;
-  font-size: 60px; }
-
 .profileTitle {
   font-size: 2rem;
   font-weight: bold;
-  text-align: center; }
+  text-align: left; }
 
 .profileTitle span {
   display: block; }
+
+.time {
+  -ms-flex-direction: row;
+      flex-direction: row;
+  display: -ms-flexbox;
+  display: flex; }
 
 .number {
   color: black;
@@ -512,36 +689,166 @@ h2 {
 .years {
   font-size: 2rem; }
 
-.portfolioExamples {
-  height: 100vh; }
-
-.websites {
+.news {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
+  -ms-flex-direction: row;
+      flex-direction: row;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-align: center;
-      align-items: center; }
-  .websites img {
-    width: 24%;
-    padding: 10px; }
+      align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px; }
 
-.zombie {
+.portImage {
+  width: 40%;
+  text-align: center; }
+  .portImage img {
+    width: 90%; }
+
+.portImage2 {
+  width: 40%;
+  text-align: center; }
+  .portImage2 img {
+    width: 100%; }
+
+.example1 {
+  width: 40%;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-size: 1.5rem; }
+  .example1 button {
+    padding: 10px 45px 10px 45px;
+    border: 2px solid black;
+    background-color: white;
+    font-weight: bold; }
+
+.portfolioExamples h2 {
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px; }
+
+.portfolioExamples button {
+  font-weight: bold;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 1.5rem;
+  width: 20%;
+  text-align: center; }
+
+.websiteExamples {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  margin-left: 20px; }
+  .websiteExamples img {
+    width: 80%;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center; }
+  .websiteExamples p {
+    font-size: 1.5rem;
+    width: 70%; }
+  .websiteExamples h3 {
+    font-size: 3rem;
+    margin: 0; }
+
+.websiteExamplesOther img {
+  width: 80%;
+  padding: 10px;
+  padding-top: 10px;
+  text-align: center; }
+
+.websiteExamplesOther p {
+  font-size: 1.5rem;
+  width: 70%; }
+
+.websiteExamplesOther h3 {
+  font-size: 3rem;
+  margin: 0; }
+
+.imgExamples {
+  text-align: center;
+  width: 80%; }
+
+.apocalypse {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-pack: end;
-      justify-content: flex-end; }
-
-.portfolioExamples h2 {
-  font-size: 3rem; }
+      flex-direction: column; }
 
 .footer {
-  border: 2px solid green; }
+  background-color: black;
+  height: 10vh; }
 
+.iconPage {
+  width: 100%;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  padding-bottom: 15vh;
+  padding-top: 15vh;
+  background-color: #E8E8E8; }
+  .iconPage .fa-chevron-down {
+    font-size: 2rem;
+    color: black;
+    margin: auto; }
+
+.skillIcons {
+  width: 100%; }
+  .skillIcons span {
+    padding: 0px 20px 0px 20px; }
+  .skillIcons p {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    font-weight: bold; }
+
+.iconFirstRow {
+  font-size: 9rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.iconSecondRow {
+  font-size: 9rem;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%; }
+
+.iconPage h2 {
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: 'Roboto'; }
+
+.fa-chevron-down {
+  font-size: 2rem;
+  padding-top: 30px; }
 
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
@@ -674,6 +981,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 * {
   box-sizing: border-box; }
 
+.titlePage {
+  background-color: white;
+  height: 100vh; }
+
 nav {
   -ms-flex-direction: row;
       flex-direction: row;
@@ -683,30 +994,31 @@ nav {
   -ms-flex-pack: start;
       justify-content: flex-start;
   margin-left: 60px;
+  margin-right: 60px;
   -ms-flex-align: center;
-      align-items: center; }
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
   nav p {
-    margin: 5px;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    font-weight: bold; }
   nav span {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 2px; }
 
-span:hover {
-  background-color: lightblue;
-  cursor: pointer;
-  cursor: hand; }
+.titlePage .icon {
+  padding: 10px 0px 10px 10px;
+  font-size: 1.3rem;
+  color: black; }
 
-.fa-twitter {
-  padding: 6px; }
-
-.fa-linkedin {
-  padding: 6px; }
+.titlePage .icon:hover {
+  padding: 10px;
+  font-size: 1.3rem;
+  background-color: lightblue; }
 
 .logo {
   font-weight: bold;
-  margin-right: 35%;
   padding: 5px 15px 5px 15px;
   font-size: 1.5rem;
   border: 5px solid black; }
@@ -715,14 +1027,6 @@ span:hover {
   background-color: lightblue;
   padding: 5px 15px 5px 15px;
   font-size: 1.5rem; }
-
-.fa-bars {
-  padding-left: 80px;
-  font-size: 20px; }
-
-.titlePage {
-  background-color: white;
-  height: 100vh; }
 
 .headline {
   background-color: black;
@@ -739,25 +1043,40 @@ span:hover {
       align-items: center; }
 
 .title {
-  padding-top: 1px;
+  padding-top: 20px;
   font-size: 2rem;
-  font-weight: bold;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   margin: 0px;
-  color: white;
-  font-family: 'Montserrat', sans-serif; }
+  color: white; }
+
+.titleDesigner, .titleCreator {
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+  margin: 0px;
+  color: white; }
 
 .aka {
-  font-size: 0.5rem;
+  font-size: 1.5rem;
   color: white;
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 50px; }
+  padding: 10px 45px 10px 45px;
+  margin-bottom: 10px;
+  border: 2px solid white;
+  font-weight: bold; }
+
+.aka:hover {
+  border: 2px solid black;
+  font-size: 1.5rem;
+  color: black;
+  background-color: white;
+  font-weight: bold; }
+
+a {
+  text-decoration: none; }
 
 .headline h3 {
   color: white; }
 
 h1 {
-  padding: 0px;
   color: white;
   font-size: 18rem;
   font-weight: bold;
@@ -802,4 +1121,5 @@ h1 {
 .headline .fa-chevron-down {
   margin-top: 30px;
   color: white;
-  background-size: 30px; }
+  background-size: 30px;
+  font-size: 1.5rem; }

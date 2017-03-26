@@ -1,39 +1,43 @@
+.titlePage {
+background-color: white;
+height: 100vh;
+}
+
 nav {
 flex-direction: row;
 display:flex;
 font-size: 1rem;
 justify-content: flex-start;
 margin-left: 60px;
+margin-right: 60px;;
 align-items:center;
+justify-content: space-between;
+// width: calc(100% - 30%);
 	p {
-	margin: 5px;
 	font-size: 1.5rem;
+	font-weight: bold;
 	}
 		span{
 			font-weight:bold;
-			font-size: 1.5rem;
+			font-size: 1rem;
 			padding:2px;
-			// background-color: lightblue;
 		}
 }
 
-span:hover{
+.titlePage .icon {
+padding:10px 0px 10px 10px;
+font-size: 1.3rem;
+color:black;
+}
+
+.titlePage .icon:hover {
+padding:10px;
+font-size: 1.3rem;
 background-color: lightblue;
-cursor: pointer; cursor: hand;
-}
-//nav icons
-
-.fa-twitter {
-padding:6px;
-}
-
-.fa-linkedin {
-padding:6px;
 }
 
 .logo{
 font-weight: bold;
-margin-right:35%;
 padding:5px 15px 5px 15px;
 font-size: 1.5rem;
 border: 5px solid black;
@@ -43,18 +47,6 @@ border: 5px solid black;
 background-color: lightblue;
 padding:5px 15px 5px 15px;
 font-size: 1.5rem;
-// border-radius: 50%;
-}
-
-.fa-bars{
-padding-left:80px;
-font-size:20px;
-}
-//nav icons
-
-.titlePage {
-background-color: white;
-height: 100vh;
 }
 
 .headline {
@@ -62,7 +54,6 @@ background-color: black;
 height: 85vh;
 margin-left:60px;
 margin-right:60px;
-// margin-top:20px;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -71,41 +62,59 @@ align-items: center;
 }
 
 .title {
-padding-top:1px;
+padding-top:20px;
 font-size: 2rem;
-font-weight:bold;
-padding-bottom:15px;
+// font-weight:bold;
+padding-bottom:10px;
 margin:0px;
 color: white;
-font-family: 'Montserrat', sans-serif;
 }
+
+.titleDesigner, .titleCreator {
+font-size: 1.6rem;
+padding-bottom:10px;
+// font-weight:bold;
+margin:0px;
+color: white;
+// font-style: italic;
+}
+
+// .title span:after {
+// border: 2px solid red;	
+// }
 
 .aka {
-font-size: 0.5rem;
+font-size: 1.5rem;
 color: white;
-font-family: 'Montserrat', sans-serif;
-margin-bottom:50px;
+padding: 10px 45px 10px 45px;
+margin-bottom:10px;
+// font-style: italic;
+border: 2px solid white;
+font-weight: bold;
 }
 
-.aka:hover {
+.aka:hover{
+border: 2px solid black;	
+font-size: 1.5rem;
+color: black;
+background-color: white;
+font-weight: bold;
+}
 
+a {
+text-decoration: none;
 }
 
 .headline h3{
-	color:white; 
+color:white; 
 }
 
 h1 {
-padding:0px;
 color:white;
 font-size: 18rem;
 font-weight:bold;
 margin:0px;
-// font-family: 'Lato', sans-serif;
-// font-family: 'Roboto', sans-serif;
 }
-
-
 
 .T:hover{
 transform: scale(1.2);
@@ -151,6 +160,18 @@ background-position:cover;
 margin-top:30px;
 color: white;
 background-size: 30px;
+font-size: 1.5rem;
 
 }
 
+@media (max-width: 940px) {
+}
+ 
+@media (max-width: 767px) {
+ }
+
+@media (max-width: 480px) {
+   }
+
+@media (max-width: 284px) {
+  }

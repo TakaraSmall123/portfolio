@@ -1,4 +1,4 @@
-$(function(){
+$(function(){      console.log('yo, this is a test');
 	$('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -8,6 +8,7 @@ $(function(){
           scrollTop: target.offset().top
         }, 1000);
         return false;
+
       }
     }
   });
