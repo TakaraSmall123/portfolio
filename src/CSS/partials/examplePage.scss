@@ -1,5 +1,7 @@
 .website2{
-padding-top:2vh;
+padding-top:10vh;
+margin-left:60px;
+margin-right:60px;
 }
 .news{
     display: flex;
@@ -7,15 +9,30 @@ padding-top:2vh;
     justify-content: center;
     align-items: center;
     width:100%;
-    margin-bottom:100px;
-    margin-top:100px;
+    margin-bottom:10vh;
+    // margin-top:100px;
     	p{
     		width:90%;
     	}
 }
 
+
+.other{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-bottom:10vh;
+    // margin-bottom:100px;
+    // margin-top:100px;
+    	p {
+    		width:90%;
+   	}
+}
+
 .portImage{
-width:40%;
+width:100%;
 text-align:center;
 	img{
 	width:100%;
@@ -23,7 +40,7 @@ text-align:center;
 }
 
 .portImage2{
-width:40%;
+width:100%;
 text-align:center;
 	img{
 	width:100%;
@@ -31,7 +48,7 @@ text-align:center;
 }
 
 .example1{
-	width:40%;
+	width:100%;
 	justify-content: center;
     align-items: center;
     font-size: 1.5rem;
