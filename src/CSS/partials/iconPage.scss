@@ -4,7 +4,7 @@ flex-direction:column;
 display:flex;
 align-items:center;
 justify-content:center;
-padding-bottom:15vh;
+padding-bottom:10vh;
 padding-top:10vh;
 background-color: #E8E8E8;
 	.fa-chevron-down{
@@ -16,6 +16,7 @@ background-color: #E8E8E8;
 
 .skillIcons{ 
 	width:70%;
+	padding-bottom:50px;
 		span {
 	padding:0px 20px 0px 20px;
 }

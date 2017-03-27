@@ -12,17 +12,18 @@ $(function(){      console.log('yo, this is a test');
       }
     }
   });
-  
-  // function toggle_color(color1, color2, cycle_time, wait_time) {
 
-  //   setInterval(function first_color() {
-  //       document.body.style.backgroundColor = color1;
-  //       setTimeout(change_color, wait_time);
-  //   }, cycle_time);
+//   toggle_photos ("#61beb3", "#90a2c6", 4000, 2000);
+// // toggle_color(color1, color2, cycle_time, wait_time) {
+//     setInterval(function first_color() {
+//         document.body.style.backgroundColor = color1;
+//         setTimeout(change_color, wait_time);
+//     }, cycle_time);
 
-  //   function change_color() {
-  //       document.body.style.backgroundColor = color2;
-  //   }
+//     function change_color() {
+//         document.body.style.backgroundColor = color2;
+//     }
+//   }
 
 
 // (function() {
