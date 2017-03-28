@@ -1,13 +1,10 @@
 $(function(){      
 
   $('.fa-bars').click(function(){
-  $('.next').slideToggle();
   $('.show').slideToggle();
+  $('#next').slideToggle();
   });
 
-  $('.fa-bars').click(function(){
-
-  });
 
 
   console.log('Welcome to my site. Make sure to email me at Takara.Small@gmail.com if you have any questions. ');
