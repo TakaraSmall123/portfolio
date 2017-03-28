@@ -11,34 +11,39 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
+	<link rel="icon" type="image/png" href="../../src/images/planet.png">
 </head>
 
 <body>
+<!-- CURRENTLY WORKING ON NAV PORTION -->
 <section class="titlePage">
-<nav class="hide" id="nav">
-<p class="home">HOME</p>
-<p class="home">ABOUT</p>
-<p class="home">PORTFOLIO</p>
-<p class="home"><p>MENU<i class="fa fa-bars icon" aria-hidden="true"></i></p>
+<nav class="show" id="show">
+	<p class="home"><a href="#home">HOME</a><p>
+	<p class="home"><a href="#aboutMe">ABOUT</p>
+	<p class="home"><a href="#skills">SKILLS</p>
+	<p class="home"><a href="#portfolio">PORTFOLIO</p></a>
+	<p class="socialItem">SOCIAL<i class="fa fa-bars icon" id="test" aria-hidden="true"></i></p>
 </nav>
 
-<nav id="show">
-	<p class="logo">T</p>
-	<p class="social">
-	<a href="https://ca.linkedin.com/in/takarasmall"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
-	<a href="https://twitter.com/takarasmall"><i class="fa fa-twitter icon" aria-hidden="true"></i></a>
-	<a href="mailto:takara.small@gmail.com"><i class="fa fa-envelope icon" aria-hidden="true"></i></a>
-	<a href="https://github.com/TakaraSmall123/"><i class="fa fa-github icon" aria-hidden="true"></i></a><p>MENU<i class="fa fa-bars icon" aria-hidden="true"></i></p>
+<nav class="next" id="next">
+	<p class="home"><a href="#home">T</a><p>
+	<p class="home"><a href="https://ca.linkedin.com/in/takarasmall"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a></p>
+	<p class="home"><a href="https://twitter.com/takarasmall"><i class="fa fa-twitter icon" aria-hidden="true"></i></a></p>
+	<p class="home"><a href="mailto:takara.small@gmail.com"><i class="fa fa-envelope icon" aria-hidden="true"></i></a></p>
+	<p class="home">MENU<i class="fa fa-bars icon" id="test" aria-hidden="true"></i></p>
 </nav>
-	<div class="headline">
-		<h1><span class="T">T</span><span class="A">A</span><span class="K">K</span><span class="A">A</span><span class="R">R</span><span class="A">A</span></h1>
-			<p class="title">FRONT-END WEB DEVELOPER</p>
-			<a href="#footer"><p class="aka">CONTACT</p></a>
-			<a href="#aboutMe"><i class="fa fa-chevron-down " aria-hidden="true"></i></a>
-	</div>
+<!-- CURRENTLY WORKING ON NAV PORTION -->
+
+
+<div class="headline">
+	<h1><span class="T">T</span><span class="A">A</span><span class="K">K</span><span class="A">A</span><span class="R">R</span><span class="A">A</span></h1>
+		<p class="title">FRONT-END WEB DEVELOPER</p>
+		<a href="#footer"><p class="aka">CONTACT</p></a>
+		<a href="#aboutMe"><i class="fa fa-chevron-down " aria-hidden="true"></i></a>
+</div>
 </section>
 
-<!-- //ABOUT BOXES-->
+
 <section class="aboutMe">
 	<div class="aboutMeTitle" id="aboutMe">
 		<h3>ABOUT ME</h3>
@@ -51,9 +56,9 @@
 							<div>
 							<p><span>Hi.</span></p>
 							<p>My name is Takara Small. I'm a front-end web developer and former tech journalist.</p> 
-							<p>I spend all my free time learning new languages, watching old Star Trek episodes <a href="https://www.youtube.com/watch?v=qXNqEURmKtA" target="_blank">(KHAAAAAN!!!)</a>, volunteering with <a href="https://twitter.com/girlscrackcode?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Girls Crack the Code</a>, Journalists Helping Journalists, <a href="http://bindercon.com" target="_blank">Binders Full of Tech Women</a> and drinking tons and tons (and tons) of coffee.</p>
+							<p>I spend all my free time learning new languages, watching old Star Trek episodes <a href="https://www.youtube.com/watch?v=qXNqEURmKtA" target="_blank">(KHAAAAAN!!!)</a>, volunteering with <a href="https://twitter.com/girlscrackcode?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Girls Crack the Code</a>, running Journalists Helping Journalists and <a href="http://bindercon.com" target="_blank"> Binders Full of Tech Women</a> and drinking tons and tons (and tons) of coffee.</p>
 									<div class="resume">
-			<button>VIEW RESUME</button>
+			<button><a href="http://takarasmall.tech/resume/Takara%20Small_resume.pdf" target="_blank">VIEW RESUME</a></button>
 		</div>
 							</div>
 						</div>
@@ -63,17 +68,13 @@
 					<img src="../../src/images/takara-small.jpg")>
 				</aside>
 			</div>
-			<a href="#iconPage"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+			<a href="#skills"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
 		</div>
-<!-- 		<div class="resume">
-			<button>VIEW RESUME</button>
-		</div> -->
-	<!-- <a href="#iconPage"><i class="fa fa-chevron-down" aria-hidden="true"></i></a> -->
 </section>
 
-<section class="iconPage" id="iconPage">
+<section class="iconPage" id="skills">
 	<div class="skillIcons">
-		<h2>TECHNICAL SKILLS:</h2>
+		<h2>TECHNICAL SKILLS</h2>
 		<div class="iconFirstRow">
 			<span class="skill">
 				<i class="devicon-jquery-plain"></i>
@@ -140,7 +141,6 @@
 <a href="#portfolio"><i class="fa fa-chevron-down" aria-hidden="true" "></i></a>
 </section>
 
-<!-- //PORTFOLIO BOXES-->
 <section class="website2" id="portfolio">
 <div class="news">
 	<div class="portImage">
@@ -149,8 +149,8 @@
 	<div class="example1">
 		<h3>APOCALYPSE SURVIVAL</h3>
 		<h4><span>TOOLS:</span> React, Javascript, CSS, Animation, APIs + more</h4>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quae sed consequatur, suscipit natus rerum quam fuga odio nulla tenetur labore et illum doloremque nostrum vero provident dicta vitae ullam.</p>
-			<button>VIEW LIVE</button>
+		<p>Ever wonder what life would be like post-apocalypse? Now you can find out by playing out your worst nightmare (or is it your ultimate dream come true?) with this survivor game.</p>
+			<button><a href="https://zombie-apocalypse-23380.firebaseapp.com" target="_blank">VIEW LIVE</a></button>
 	</div>
 </div>
 
@@ -158,8 +158,8 @@
 	<div class="example1">
 		<h3>HOW HACKERS ARE STEALING YOUR DATA</h3>
 		<h4><span>TOOLS:</span> APIs, JQuery, CSS, SASS + more </h4>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quae sed consequatur, suscipit natus rerum quam fuga odio nulla tenetur labore et illum doloremque nostrum vero provident dicta vitae ullam.</p>
-		<button>VIEW LIVE</button>
+		<p>Computers are not great for storing secrets. The number of reported data breaches at U.S. organizations hit a total of 783 in 2014, according to the Identity Theft Resource Centre, an industry body. Take a look at this site to find out the latest breaches and if your personal information has been hacked.</p>
+		<button><a href="http://www.takarasmall.tech/hacking_data/" target="_blank">VIEW LIVE</a></button>
 	</div>
 	<div class="portImage2">
 		<img src="../../src/images/a-1.jpg")>
@@ -173,16 +173,16 @@
 	<div class="example1">
 		<h3>MASH: A TIMELESS FORTUNE-TELLING GAME</h3>
 		<h4><span>TOOLS:</span> Javascript, JQuery, CSS, Animation, SASS + more </h4>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quae sed consequatur, suscipit natus rerum quam fuga odio nulla tenetur labore et illum doloremque nostrum vero provident dicta vitae ullam.</p>
-		<button>VIEW LIVE</button>
+		<p>Who doesn't remember this timeless classic game played by elementary, junior high, and high school aged kids? Relive your youth with this easy-to-play game.</p>
+		<button ><a href="http://www.takarasmall.tech/mash/" target="_blank">VIEW LIVE</a></button>
 	</div>
 	
 </div>
-<div class="other">
+<div class="other comingSoon">
 	<div class="example1">
 		<h3>Baker & Coffee</h3>
 		<h4><span>TOOLS:</span> HTML, CSS, SASS + more</h4>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo quae sed consequatur, suscipit natus rerum quam fuga odio nulla tenetur labore et illum doloremque nostrum vero provident dicta vitae ullam.</p>
+		<p>The best coffee in Toronto approaches the perfect cup of Joe with real gusto. Each cup is ground according to its use and type, and weighed before and after being made.</p>
 		<button>VIEW LIVE</button>
 	</div>
 	<div class="portImage2">
@@ -214,7 +214,3 @@
 </script>
 </body>
 </html>
-
-<!-- scroll not working 
-black is going over 100vh -->
-<!-- clean up fonts (put them all in one) -->

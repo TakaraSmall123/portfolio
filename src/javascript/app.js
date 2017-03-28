@@ -1,5 +1,17 @@
-$(function(){      console.log('yo, this is a test');
-	$('a[href*="#"]:not([href="#"])').click(function() {
+$(function(){      
+
+  $('.fa-bars').click(function(){
+  $('.next').slideToggle();
+  $('.show').slideToggle();
+  });
+
+  $('.fa-bars').click(function(){
+
+  });
+
+
+  console.log('Welcome to my site. Make sure to email me at Takara.Small@gmail.com if you have any questions. ');
+  $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -12,6 +24,18 @@ $(function(){      console.log('yo, this is a test');
       }
     }
   });
+    });
+
+//   $('.test').click(function() {
+//   // $('#show').hide();
+//   console.log('yo, nav')
+// });
+//     console.log('yo, nav')
+
+
+
+  // });
+  // http://codepen.io/anon/pen/vEbXwG
 
 //   toggle_photos ("#61beb3", "#90a2c6", 4000, 2000);
 // // toggle_color(color1, color2, cycle_time, wait_time) {
@@ -39,4 +63,6 @@ $(function(){      console.log('yo, this is a test');
 //     }, 500);
 // })();
 
- }); 
+// http://stackoverflow.com/questions/9750346/jquery-toggle-div-style-displaynone-to-displayinline
+// http://jsfiddle.net/4rfYB/5/
+
