@@ -1,181 +1,196 @@
 @import 'partials/variables';
 
+//contact section 
 
-.wrapper {
-  width: 80%; 
-}
-
-footer {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  width: 100%;
-  -ms-flex-align: center;
-      align-items: center;
+.footer{
   background-color: $black;
-  color: white; }
+  display:flex;
+  flex-direction: row;
 
-form {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  width: 50%; 
+  h3{
+    color:white;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Roboto';
+  }
+}
+.contact {
+  display:flex;
+
 
 }
-  // @media (max-width: 624px) {
-  //   form {
-  //     display: none; } }
+.contact-text {
+  width:60%;
+  padding:60px 20px;
+  font-size:1rem;
+  background: $black;
+  font-family: 'Roboto';
+}
 
-label {
-  font-size: 0.8rem;
-  padding: 5px 0; }
+input, textarea {
+    border:none;
+    padding:6px;
+  }
 
-input {
-  background-color: $black;
-  border: none;
-  border-bottom: 1px solid white;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  margin: 5px 0;
-  padding: 5px; }
-  input:focus {
-    outline-color: #efd1c6; }
-
-form button {
-  background-color: white;
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: $black;
-  border: none;
-  border-bottom: 2px solid black;
-  margin: 30px 0 100px 0;
-  padding-left: 0;
-  width: 50px;
-  text-align: left;
-
-  transition: border-bottom 0.2s ease-in-out; }
-  form button:hover {
-    border-bottom: 2px solid $black;
-    transition: border-bottom 0.2s ease-in-out; 
+  font-weight:bold;
+  font-size:1.5rem;
 }
 
-// .getInTouch__columns {
-//   display: -ms-flexbox;
-//   display: flex; }
-//   @media (max-width: 624px) {
-//     .getInTouch__columns {
-//       -ms-flex-align: center;
-//           align-items: center; } }
+input[type=submit]{
+  color: $black;
+  font-weight:bold;
+  font-size:1.5rem;
+}
 
-// .social {
-//   width: 50%; }
-//   @media (max-width: 624px) {
-//     .social {
-//       width: 100%;
-//       padding-bottom: 50px; } }
+.extras a {
+  color:white;
+  font-size:2.3rem;
+  padding:10px;
 
-// .social__pairs {
-//   display: -ms-flexbox;
-//   display: flex;
-//   -ms-flex-align: center;
-//       align-items: center; }
-//   .social__pairs:hover {
-//     color: #efd1c6; }
-//   @media (max-width: 624px) {
-//     .social__pairs {
-//       padding: 0 70px; } }
-//   @media (max-width: 624px) and (max-width: 425px) {
-//     .social__pairs {
-//       padding: 0 15px; } }
+}
 
-// .social__pairs i {
-//   font-size: 1.2rem;
-//   margin: 10px 0; }
-//   @media (max-width: 768px) {
-//     .social__pairs i {
-//       color: #efd1c6; } }
+.contact-image {
+  margin:auto;
+  width:40%;
+  padding:20px;
+  // position:relative;
+}
 
-// .social__label {
-//   font-size: 0.8rem;
-//   margin-left: 20px;
-//   color: white;
-//   padding: 5px 0;
-//   border-bottom: 2px solid black;
-//   transition: border-bottom 0.2s ease-in-out; }
-//   .social__label a {
-//     color: white; }
-//   .social__label:hover {
-//     border-bottom: 2px solid #efd1c6;
-//     transition: border-bottom 0.2s ease-in-out; }
-//   .social__label:focus {
-//     outline: none; }
+.sub {
+  width:100%;
 
-// .footer {
-// background-color:$black;
+}
 
-// 	margin-bottom:0;
-// 	.logo{
-// 	font-weight: bold;
-// 	padding:5px 15px 5px 15px;
-// 	font-size: 1.5rem;
-// 	border: 5px solid white;
-// 	color:white;
-// 	}
-// 	.icon {
-// 	padding:10px 0px 10px 10px;
-// 	font-size: 1.5rem;
-// 	color:white;
-// 	}
-
+// @keyframes rotating {
+//   from {
+//     transform:rotateX(0deg);
+//   }
+//   to {
+//     transform:rotateX(360deg);
+//   }
 // }
 
-// .contact-form{
-// 	width:80%
+// .prop {
+//   position:absolute;
+//   width:3%;
+//   animation: rotating 2s linear infinite;
+//   width:3.5%;
+//   top:47%;
+//   left:8%;
 // }
-// 	form {
-// 		border: 5px solid red;
-// 		display:flex;
-// 		align-items:center;
-// 		justify-content:center;
-// 		flex-direction:column;
-// 		color:white;
-// 		padding: 10px 20px 10px 20px;
 
-// 			label{
-// 				font-size: 2rem;
-// 				float:left;
-// 			}
-// 	}
+.contact-form {
+  width:80%;
+  margin:0 auto;
+}
 
-// 	input{
-// 		border: 2px solid red;
-// 		font-size: 1rem;
-// 	}
+.form-top {
+  display:flex;
+  width:100%;
+}
 
-// 	nav{
-//   	display: flex;
-//     flex-direction: row;
-//     justify-content: center;
-//     align-items: center;
-//     margin:auto;
-//     height:100%;
-//     justify-content: space-between;
-//     margin-right:60px;
-//     margin-left:60px;
-// 	}
+.email, .name {
+  width:48%;
+  input {
+    width:95%;
+    padding:10px;
+  }
+}
 
-// 	.copyright{
-// 	color: black;
-// 	}
+.email, .name, .subject {
+  margin-bottom:0;
+}
 
-// 	.email{
-// 		color:white;
-// 	}
+.email {
+  margin-left:4%;
+}
 
-	
+.subject {
+  input {
+    width:100%;
+  }
+}
 
-	.accent {
-	text-align: center;
-	}
+.message {
+  textarea {
+    width:100%;
+  }
+}
 
+.submit {
+  text-align:right;
+  input {
+    width:80px;
+    background:white;
+    border:1px solid lightblue;
+  }
+}
+
+img.ajax-loader {
+  display:none;
+}
+
+div.wpcf7-response-output {
+  margin:0;
+  padding:0;
+}
+
+.wpcf7-mail-sent-ok, .wpcf7-validation-errors, span.wpcf7-not-valid-tip {
+  border:none !important;
+  font-size:0.8rem;
+  color:lightblue;
+}
+
+.contact-email {
+  width:80%;
+  margin:20px auto;
+  p {
+    margin:0;
+    text-align:center;
+    a {
+      color:lightblue;
+      font-weight:bold;
+    }
+  }
+}
+
+.contact-fields {
+  width:60%;
+  margin:20px auto 0;
+  display:flex;
+  justify-content:space-around;
+}
+
+.field {
+  z-index:5;
+  a {
+    color:lightblue;
+  }
+  p {
+    display:none;
+  }
+  i {
+    font-size: 1.6rem;
+  }
+}
+
+.copyright {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 90px;
+}
+
+.footerlogo{
+  background-color: $black;
+     p{
+        text-align:center;
+
+        img{
+        width:10%;
+        color: $black;
+
+      }
+    }
+}

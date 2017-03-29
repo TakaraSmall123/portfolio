@@ -17,14 +17,17 @@ background-color: #E8E8E8;
 	}
 }
 
+
+
 .skillIcons{ 
 	width:100%;
 	margin-bottom:50px;
+	color: $black;
 
 		span {
 	padding:0px 20px 0px 20px;
 	font-size:6rem;
-	color: $black;
+	
 }
 
 		p{
@@ -37,16 +40,29 @@ background-color: #E8E8E8;
 		}
 }	
 
-.iconFirstRow, {
+.iconFirstRow,  {
 font-size: 9rem;
 display:flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 width:100%;
-flex-wrap: wrap;
-padding-bottom:50px;
+flex-wrap: no-wrap;
+padding-bottom:20px;
+}
 
+.iconGroupThree{
+font-size: 9rem;
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: no-wrap;
+padding-bottom:50px;
+}
+
+.skill {
+padding: 0px 10px;
 }
 
 .iconSecondRow{
@@ -56,7 +72,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 width:100%;
-flex-wrap: wrap;
+flex-wrap: no-wrap;
 }
 
 .iconPage h2{

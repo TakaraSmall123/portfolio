@@ -1,9 +1,16 @@
 $(function(){      
 
   $('.fa-bars').click(function(){
-  $('.show').slideToggle();
-  $('#next').slideToggle();
+  $('.nav').toggleClass('show');
+  $('.nav').toggleClass('hide');
   });
+
+
+//   $('.navBurger').on('click', function(){
+//     $('.bar').toggleClass('active');
+//     $('nav').toggleClass('hide');
+//   });
+
 
   // $('.T').css(style.backgroundImage = 'url(kittenz.jpg)' 200);
 

@@ -11,13 +11,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
-	<link rel="icon" type="image/png" href="../../src/images/planet.png">
+	<link rel="icon" type="image/jpg" href="../../src/images/T_logo.jpg">
 </head>
 
 <body>
 <!-- CURRENTLY WORKING ON NAV PORTION -->
 <section class="titlePage">
-<nav class="nav">
+<nav class="nav show">
 	<div class="logoBox">
   	<p class="logo"><span>T</span></p>
 	</div>
@@ -28,10 +28,10 @@
 	<a href="https://github.com/TakaraSmall123/"><i class="fa fa-github icon" aria-hidden="true"></i></a>
 	<a href="https://ca.linkedin.com/in/takarasmall">
 	<i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
-	</div><div class="update3"><span>SOCIAL</span><i class="fa fa-bars icon" aria-hidden="true"></i></p></div>
+	</div><div class="update3"><span>MENU</span><i class="fa fa-bars icon" aria-hidden="true"></i></p></div>
  </nav>
 
-<!--  <nav class="nav">
+ <nav class="nav hidden">
 	<div class="logoBox">
   	<p class="logo"><span>T</span></p>
 	</div>
@@ -42,7 +42,7 @@
 	</div>
 	<div class="update"><span>MENU</span><i class="fa fa-bars icon" aria-hidden="true"></i></p></div>
  </nav>
- -->
+
 <div class="headline">
 	<h1><span class="T">T</span><span class="A">A</span><span class="K">K</span><span class="A">A</span><span class="R">R</span><span class="A">A</span></h1>
 		<p class="title">FRONT-END WEB DEVELOPER</p>
@@ -74,7 +74,7 @@
 					</div>
 				</div>
 				<aside class="skills">
-					<img src="../../src/images/takara-small-profile-photo.jpg" alt=""/>
+					<img src="../../src/images/takara-small-profile-photo.jpg" alt="profile-photo"/>
 				</aside>
 			</div>
 			<a href="#skills"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
@@ -86,66 +86,74 @@
 		<h2>TECHNICAL SKILLS</h2>
 
 		<div class="iconFirstRow">
+			<div class="iconGroupThree">
+				<div class="skill">
+					<i class="devicon-jquery-plain"></i>
+					<p>JQUERY</p>
+				</div>
 
-			<span class="skill">
-				<i class="devicon-jquery-plain"></i>
-				<p>JQUERY</p>
-			</span>
+				<div class="skill">
+					<i class="devicon-react-original"></i>
+					<p>REACT</p>
+				</div>
 
-			<span class="skill">
-				<i class="devicon-react-original"></i>
-				<p>REACT</p>
-			</span>
+				<div class="skill">
+					<i class="devicon-html5-plain"></i>
+					<p>HTML5</p>
+				</div>
+			</div>
 
-			<span class="skill">
-				<i class="devicon-html5-plain"></i>
-				<p>HTML5</p>
-			</span>
+			<div class="iconGroupThree">
+				<div class="skill">
+					<i class="devicon-css3-plain"></i>
+					<p>CSS</p>
+				</div>
 
-			<span class="skill">
-				<i class="devicon-css3-plain"></i>
-				<p>CSS</p>
-			</span>
+				<div class="skill">
+					<i class="devicon-javascript-plain"></i>
+					<p>JAVASCRIPT</p>
+				</div>
 
-			<span class="skill">
-				<i class="devicon-javascript-plain"></i>
-				<p>JAVASCRIPT</p>
-			</span>
-
-			<span class="skill">
-				<i class="devicon-bootstrap-plain"></i>
-				<p>BOOTSTRAP</p>
-			</span>
+				<div class="skill">
+					<i class="devicon-bootstrap-plain"></i>
+					<p>BOOTSTRAP</p>
+				</div>
+			</div>
 		</div>
 		<div class="iconSecondRow">
-			<span class="skill">
+
+		<div class="iconGroupThree">
+			<div class="skill">
 				<i class="devicon-github-plain"></i>
 				<p>GITHUB</p>
-			</span>
+			</div>
 
-			<span class="skill">
+			<div class="skill">
 				<i class="devicon-nodejs-plain"></i>
 				<p>NODEJS</p>
-			</span>
-			<span class="skill">
+			</div>
+			<div class="skill">
 				<i class="devicon-sass-original"></i>
 				<p>SASS</p>
-			</span>
+			</div>
+		</div>
 
-			<span class="skill">
+		<div class="iconGroupThree">
+			<div class="skill">
 				<i class="devicon-git-plain"></i>
 				<p>GIT</p>
-			</span>
+			</div>
 
-			<span class="skill">
+			<div class="skill">
 				<i class="devicon-gulp-plain"></i>
 				<p>GULP</p>
-			</span>
+			</div>
 
-			<span class="skill">
+			<div class="skill">
 			<i class="devicon-trello-plain"></i>
 			<p>TRELLO</p>
-			</span>
+			</div>
+		</div>
 		</div>
 			
 	</div>
@@ -190,13 +198,14 @@
 		</div>
 		
 	</div>
-	<div class="other comingSoon">
+	<div class="other">
 		<div class="example1">
 			<h3>Baker & Coffee</h3>
 			<h4><span>TOOLS:</span> HTML, CSS, SCSS + more</h4>
 			<p>The best coffee in Toronto approaches the perfect cup of Joe with real gusto. Each cup is ground according to its use and type, and weighed before and after being made.</p>
-			<button>VIEW LIVE</button>
-		</div>
+			<button ><a href="http://www.takarasmall.tech/bakery/" target="_blank" >VIEW LIVE</a></button>
+			<!-- <button ><a href="http://www.takarasmall.tech/bakery/" target="_blank" >VIEW LIVE</a></button>
+ -->		</div>
 		<div class="portImage2">
 			<img src="../../src/images/a-2.jpg" alt="Baker & Coffee restaurant PSD"/>
 		</div>
@@ -204,69 +213,54 @@
 	</section>
 
 	<section class="footer" id="footer">
-	<footer>
-		<div class="wrapper">
-			<!-- <h2 class="sectionName" id="contact">Get In Touch</h2>
-			<div class="getInTouch__columns">
-				<div class="social">
-					<div class="social__pairs">
-						<i class="fa fa-envelope" aria-hidden="true"></i>
-						<a class="social__label" href="mailto:hello@jessicadelgrande.com" target"_blank">hello@jessicadelgrande.com</a>
-					</div>
-					<div class="social__pairs">
-						<i class="fa fa-twitter" aria-hidden="true"></i>
-						<a class="social__label" href="https://twitter.com/jessdelgrande" target"_blank">@jessdelgrande</a>
-					</div>
-					<div class="social__pairs">
-						<i class="fa fa-medium" aria-hidden="true"></i>
-						<a class="social__label" href="https://medium.com/@jessica.delgrande" target"_blank">I blog on Medium</a>
-					</div>
-					<div class="social__pairs">
-						<i class="fa fa-github" aria-hidden="true"></i>
-						<a class="social__label" href="https://github.com/jessicadelgrande" target"_blank">I share my code on GitHub</a>
-					</div>
-					<div class="social__pairs">
-						<i class="fa fa-linkedin" aria-hidden="true"></i>
-						<a class="social__label" href="http://linkedin.com/in/jessicadelgrande" target"_blank">I connect on LinkedIn</a>
-					</div> -->
-				</div>
-				<form action="https://formspree.io/hello@jessicadelgrande.com" method="POST">
-					<label for="name">name</label>
-					<input type="text" name="name">
-					<label for="email">email</label>
-					<input type="email" name="_replyto">
-					<label for="yourMessage">your message</label>
-					<input type="textarea" name="yourMessage">
-					<button class="footer__button" type="submit" name="submit">submit</button>
-				</form>
-			</div>
 
-		</div><!-- end .wrapper -->
-	</footer>
-<!-- 	<nav> -->
-	<!-- <div class="contact-form">
-		<form action="https://formspree.io/takara.small@gmail.com" method="POST">
-			<label for="name">name</label>
-			<input type="text" name="name">
-			<label for="email">email</label>
-			<input type="email" name="_replyto">
-			<label for="yourMessage">your message</label>
-			<input type="textarea" name="yourMessage">
-			<button class="footer__button" type="submit" name="submit">submit</button>
-		</form>
-	</div> -->
-<!-- 		<p class="email">Takara.Small@gmail.com</p>
+<div class="contact-text">
+<h3> CONTACT ME</h3>
+<div class="contact-form">
+<div role="form" class="wpcf7" id="wpcf7-f62-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="https://formspree.io/takara.small@gmail.com" method="POST">
+<!-- <div style="display: none;">
+<input type="hidden" name="_wpcf7" value="62" />
+<input type="hidden" name="_wpcf7_version" value="4.4" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f62-o1" />
+<input type="hidden" name="_wpnonce" value="91094cc1ab" />
+</div> -->
+	<div class="form-top">
+<p class="name">
+    <span class="name"><input type="text" name="formName" value=""  placeholder="Full Name" /></span> </p>
+<p class="email">
+    <span class="email"><input type="text" name="formEmail" value=""  placeholder="Email" /></span> </p>
+</div>
+
+<p class="message">
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="6" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Leave a Message"></textarea></span> </p>
+<p class="submit"><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" /></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div>
+</form>
+</div>
+	    	
+<div class="contact-fields">
+	<div class="extras">
+		<p>Takara.Small@gmail.com</p>
 		<p class="social">
 		<a href="https://ca.linkedin.com/in/takarasmall"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
 		<a href="https://twitter.com/takarasmall"><i class="fa fa-twitter icon" aria-hidden="true"></i></a>
 		<a href="mailto:takara.small@gmail.com"><i class="fa fa-envelope icon" aria-hidden="true"></i></a>
 		<a href="https://github.com/TakaraSmall123/"><i class="fa fa-github icon" aria-hidden="true"></i></a></p>
- -->
-<!-- 	</nav> -->
+	</div>
+</div>
+</div>
+</div>
+
+<div class="footerlogo">
+<!-- <p><img src="../../src/images/T_logo.jpg" alt=""/></p> -->
+</div>
 	</section>
 
 	<section class="accent" id="accent">
-		<p class="copyright">© Copyright Takara Small 2017</p>
+		<p class="copyright">© Copyright Takara Small 2017 | All Rights Reserved</p>
 	</section>
 
 
