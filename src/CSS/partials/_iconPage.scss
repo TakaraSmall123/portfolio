@@ -1,31 +1,39 @@
+@import 'partials/variables';
+
 .iconPage{
 width:100%;
 flex-direction:column;
 display:flex;
 align-items:center;
 justify-content:center;
-padding-bottom:10vh;
-padding-top:10vh;
+// padding-bottom:15vh;
+// padding-top:10vh;
+height:100vh;
 background-color: #E8E8E8;
 	.fa-chevron-down{
 		font-size: 2rem;
-		color:black;
+		color:$black;
 		margin:auto;
 	}
 }
 
 .skillIcons{ 
-	width:70%;
-	padding-bottom:50px;
+	width:100%;
+	margin-bottom:50px;
+
 		span {
 	padding:0px 20px 0px 20px;
+	font-size:6rem;
+	color: $black;
 }
 
 		p{
 		font-size:1.5rem;
-		color:black;
+		color:$black;
 		text-align: center;
 		font-weight:bold;
+		padding:0px;
+		margin:0px;
 		}
 }	
 
@@ -37,6 +45,7 @@ justify-content: center;
 align-items: center;
 width:100%;
 flex-wrap: wrap;
+padding-bottom:50px;
 
 }
 
@@ -58,5 +67,5 @@ text-align: center;
 
 .fa-chevron-down {
 font-size: 2rem;
-padding-top:30px;
+margin-top:30px;
 }

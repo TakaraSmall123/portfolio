@@ -17,24 +17,32 @@
 <body>
 <!-- CURRENTLY WORKING ON NAV PORTION -->
 <section class="titlePage">
-<nav class="show" id="show">
-	<p class="home"><a href="#home">HOME</a><p>
-	<p class="home"><a href="#aboutMe">ABOUT</p>
-	<p class="home"><a href="#skills">SKILLS</p>
-	<p class="home"><a href="#portfolio">PORTFOLIO</p></a>
-	<p class="socialItem">SOCIAL<i class="fa fa-bars icon" id="test" aria-hidden="true"></i></p>
-</nav>
+<nav class="nav">
+	<div class="logoBox">
+  	<p class="logo"><span>T</span></p>
+	</div>
+	<div class="socialBox">
+	<div class="update"><p class="social"><span>CONTACT</span><a href="mailto:takara.small@gmail.com"><i class="fa fa-envelope-o icon" aria-hidden="true"></i></a></i></div> 
+	<div class="update2">
+	<a href="https://twitter.com/takarasmall?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter icon" aria-hidden="true"></i></a>
+	<a href="https://github.com/TakaraSmall123/"><i class="fa fa-github icon" aria-hidden="true"></i></a>
+	<a href="https://ca.linkedin.com/in/takarasmall">
+	<i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
+	</div><div class="update3"><span>SOCIAL</span><i class="fa fa-bars icon" aria-hidden="true"></i></p></div>
+ </nav>
 
-<nav class="next" id="next">
-	<p class="home"><a href="#home">T</a><p>
-	<p class="home"><a href="https://ca.linkedin.com/in/takarasmall"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a></p>
-	<p class="home"><a href="https://twitter.com/takarasmall"><i class="fa fa-twitter icon" aria-hidden="true"></i></a></p>
-	<p class="home"><a href="mailto:takara.small@gmail.com"><i class="fa fa-envelope icon" aria-hidden="true"></i></a></p>
-	<p class="home">MENU<i class="fa fa-bars icon" id="test" aria-hidden="true"></i></p>
-</nav>
-<!-- CURRENTLY WORKING ON NAV PORTION -->
-
-
+<!--  <nav class="nav">
+	<div class="logoBox">
+  	<p class="logo"><span>T</span></p>
+	</div>
+	<div class="socialBox">
+	<div class="update"><p class="social"><span>ABOUT</span><i class="fa fa-id-card-o icon" aria-hidden="true"></i></i></div> 
+	<div class="update2">
+	<p><span>PORTFOLIO</span><i class="fa fa-file-code-o icon" aria-hidden="true"></i></p>
+	</div>
+	<div class="update"><span>MENU</span><i class="fa fa-bars icon" aria-hidden="true"></i></p></div>
+ </nav>
+ -->
 <div class="headline">
 	<h1><span class="T">T</span><span class="A">A</span><span class="K">K</span><span class="A">A</span><span class="R">R</span><span class="A">A</span></h1>
 		<p class="title">FRONT-END WEB DEVELOPER</p>
@@ -44,19 +52,20 @@
 </section>
 
 
-<section class="aboutMe">
-	<div class="aboutMeTitle" id="aboutMe">
-		<h3>ABOUT ME</h3>
-		<p class="profileTitles">Front-End Web Developer</p>
+<section class="aboutMe" id="aboutMe">
+	<div class="aboutMeTitle">
 	</div>
 			<div class="aboutMeBox">
 				<div class="position">
 					<div class="text">
 						<div class="introWords">
 							<div>
-							<p><span>Hi.</span></p>
-							<p>My name is Takara Small. I'm a front-end web developer and former tech journalist.</p> 
-							<p>I spend all my free time learning new languages, watching old Star Trek episodes <a href="https://www.youtube.com/watch?v=qXNqEURmKtA" target="_blank">(KHAAAAAN!!!)</a>, volunteering with <a href="https://twitter.com/girlscrackcode?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Girls Crack the Code</a>, running Journalists Helping Journalists and <a href="http://bindercon.com" target="_blank"> Binders Full of Tech Women</a> and drinking tons and tons (and tons) of coffee.</p>
+							<h3>ABOUT ME</h3>
+							<h4>Hi, my name is Takara Small</h4>
+							<p>I'm a front-end web developer and former tech journalist.</p> 
+							<p>I spend all my free time learning new programming languages, watching old <a href="https://www.youtube.com/watch?v=qXNqEURmKtA">Star Trek episodes</a>, volunteering with <a href="https://twitter.com/girlscrackcode?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Girls Crack the Code</a> and drinking tons and tons (and tons) of coffee.</p>
+
+							<p>I love creating sites that feature javascript and react as well as give me the opportunity to flex my interactive skills and look forward to one day becoming a full-stack developer.</p>
 									<div class="resume">
 			<button><a href="http://takarasmall.tech/resume/Takara%20Small_resume.pdf" target="_blank">VIEW RESUME</a></button>
 		</div>
@@ -65,7 +74,7 @@
 					</div>
 				</div>
 				<aside class="skills">
-					<img src="../../src/images/takara-small.jpg")>
+					<img src="../../src/images/takara-small-profile-photo.jpg" alt=""/>
 				</aside>
 			</div>
 			<a href="#skills"><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
@@ -75,7 +84,9 @@
 <section class="iconPage" id="skills">
 	<div class="skillIcons">
 		<h2>TECHNICAL SKILLS</h2>
+
 		<div class="iconFirstRow">
+
 			<span class="skill">
 				<i class="devicon-jquery-plain"></i>
 				<p>JQUERY</p>
@@ -141,67 +152,122 @@
 <a href="#portfolio"><i class="fa fa-chevron-down" aria-hidden="true" "></i></a>
 </section>
 
-<section class="website2" id="portfolio">
-<div class="news">
+<section class="website2" >
+	<div class="portfolioHeader" id="portfolio"><h2>PORTFOLIO</h2></div>
+	<div class="news">
+		<div class="portImage">
+			<img src="../../src/images/a-4.jpg" alt="Apocalypse survival game"/>
+		</div>
+		<div class="example1 porfolioOne">
+			<h3>APOCALYPSE SURVIVAL</h3>
+			<h4><span>TOOLS:</span> React, Javascript, CSS, Animation, APIs + more</h4>
+			<p>Ever wonder what life would be like post-apocalypse? Now you can find out by playing out your worst nightmare (or is it your ultimate dream come true?) with this survivor game.</p>
+				<button><a href="https://zombie-apocalypse-23380.firebaseapp.com" target="_blank">VIEW LIVE</a></button>
+		</div>
+	</div>
+
+	<div class="other">
+		<div class="example1">
+			<h3>HOW HACKERS ARE STEALING YOUR DATA</h3>
+			<h4><span>TOOLS:</span> APIs, JQuery, CSS, ES6  + more </h4>
+			<p>Computers are not great for storing secrets. The number of reported data breaches at U.S. organizations hit a total of 783 in 2014, according to the Identity Theft Resource Centre, an industry body. Take a look at this site to find out the latest breaches and if your personal information has been hacked.</p>
+			<button><a href="http://www.takarasmall.tech/hacking_data/" target="_blank">VIEW LIVE</a></button>
+		</div>
+		<div class="portImage2">
+			<img src="../../src/images/a-1.jpg" alt="Hacking website" />
+		</div>
+	</div>
+
+	<div class="news">
 	<div class="portImage">
-		<img src="../../src/images/a-4.jpg")>
+			<img src="../../src/images/a-3.jpg" alt="MASH fortune-telling game"/>
+		</div>
+		<div class="example1 porfolioOne">
+			<h3>MASH: A TIMELESS FORTUNE-TELLING GAME</h3>
+			<h4><span>TOOLS:</span> Javascript, JQuery, CSS, Animation, + more </h4>
+			<p>Who doesn't remember this timeless classic game played by elementary, junior high, and high school aged kids? Relive your youth with this easy-to-play game.</p>
+			<button ><a href="http://www.takarasmall.tech/mash/" target="_blank" >VIEW LIVE</a></button>
+		</div>
+		
 	</div>
-	<div class="example1">
-		<h3>APOCALYPSE SURVIVAL</h3>
-		<h4><span>TOOLS:</span> React, Javascript, CSS, Animation, APIs + more</h4>
-		<p>Ever wonder what life would be like post-apocalypse? Now you can find out by playing out your worst nightmare (or is it your ultimate dream come true?) with this survivor game.</p>
-			<button><a href="https://zombie-apocalypse-23380.firebaseapp.com" target="_blank">VIEW LIVE</a></button>
+	<div class="other comingSoon">
+		<div class="example1">
+			<h3>Baker & Coffee</h3>
+			<h4><span>TOOLS:</span> HTML, CSS, SCSS + more</h4>
+			<p>The best coffee in Toronto approaches the perfect cup of Joe with real gusto. Each cup is ground according to its use and type, and weighed before and after being made.</p>
+			<button>VIEW LIVE</button>
+		</div>
+		<div class="portImage2">
+			<img src="../../src/images/a-2.jpg" alt="Baker & Coffee restaurant PSD"/>
+		</div>
 	</div>
-</div>
+	</section>
 
-<div class="other">
-	<div class="example1">
-		<h3>HOW HACKERS ARE STEALING YOUR DATA</h3>
-		<h4><span>TOOLS:</span> APIs, JQuery, CSS, SASS + more </h4>
-		<p>Computers are not great for storing secrets. The number of reported data breaches at U.S. organizations hit a total of 783 in 2014, according to the Identity Theft Resource Centre, an industry body. Take a look at this site to find out the latest breaches and if your personal information has been hacked.</p>
-		<button><a href="http://www.takarasmall.tech/hacking_data/" target="_blank">VIEW LIVE</a></button>
-	</div>
-	<div class="portImage2">
-		<img src="../../src/images/a-1.jpg")>
-	</div>
-</div>
+	<section class="footer" id="footer">
+	<footer>
+		<div class="wrapper">
+			<!-- <h2 class="sectionName" id="contact">Get In Touch</h2>
+			<div class="getInTouch__columns">
+				<div class="social">
+					<div class="social__pairs">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						<a class="social__label" href="mailto:hello@jessicadelgrande.com" target"_blank">hello@jessicadelgrande.com</a>
+					</div>
+					<div class="social__pairs">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+						<a class="social__label" href="https://twitter.com/jessdelgrande" target"_blank">@jessdelgrande</a>
+					</div>
+					<div class="social__pairs">
+						<i class="fa fa-medium" aria-hidden="true"></i>
+						<a class="social__label" href="https://medium.com/@jessica.delgrande" target"_blank">I blog on Medium</a>
+					</div>
+					<div class="social__pairs">
+						<i class="fa fa-github" aria-hidden="true"></i>
+						<a class="social__label" href="https://github.com/jessicadelgrande" target"_blank">I share my code on GitHub</a>
+					</div>
+					<div class="social__pairs">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+						<a class="social__label" href="http://linkedin.com/in/jessicadelgrande" target"_blank">I connect on LinkedIn</a>
+					</div> -->
+				</div>
+				<form action="https://formspree.io/hello@jessicadelgrande.com" method="POST">
+					<label for="name">name</label>
+					<input type="text" name="name">
+					<label for="email">email</label>
+					<input type="email" name="_replyto">
+					<label for="yourMessage">your message</label>
+					<input type="textarea" name="yourMessage">
+					<button class="footer__button" type="submit" name="submit">submit</button>
+				</form>
+			</div>
 
-<div class="news">
-<div class="portImage">
-		<img src="../../src/images/a-3.jpg")>
-	</div>
-	<div class="example1">
-		<h3>MASH: A TIMELESS FORTUNE-TELLING GAME</h3>
-		<h4><span>TOOLS:</span> Javascript, JQuery, CSS, Animation, SASS + more </h4>
-		<p>Who doesn't remember this timeless classic game played by elementary, junior high, and high school aged kids? Relive your youth with this easy-to-play game.</p>
-		<button ><a href="http://www.takarasmall.tech/mash/" target="_blank">VIEW LIVE</a></button>
-	</div>
-	
-</div>
-<div class="other comingSoon">
-	<div class="example1">
-		<h3>Baker & Coffee</h3>
-		<h4><span>TOOLS:</span> HTML, CSS, SASS + more</h4>
-		<p>The best coffee in Toronto approaches the perfect cup of Joe with real gusto. Each cup is ground according to its use and type, and weighed before and after being made.</p>
-		<button>VIEW LIVE</button>
-	</div>
-	<div class="portImage2">
-		<img src="../../src/images/a-2.jpg")>
-	</div>
-</div>
-</section>
+		</div><!-- end .wrapper -->
+	</footer>
+<!-- 	<nav> -->
+	<!-- <div class="contact-form">
+		<form action="https://formspree.io/takara.small@gmail.com" method="POST">
+			<label for="name">name</label>
+			<input type="text" name="name">
+			<label for="email">email</label>
+			<input type="email" name="_replyto">
+			<label for="yourMessage">your message</label>
+			<input type="textarea" name="yourMessage">
+			<button class="footer__button" type="submit" name="submit">submit</button>
+		</form>
+	</div> -->
+<!-- 		<p class="email">Takara.Small@gmail.com</p>
+		<p class="social">
+		<a href="https://ca.linkedin.com/in/takarasmall"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/takarasmall"><i class="fa fa-twitter icon" aria-hidden="true"></i></a>
+		<a href="mailto:takara.small@gmail.com"><i class="fa fa-envelope icon" aria-hidden="true"></i></a>
+		<a href="https://github.com/TakaraSmall123/"><i class="fa fa-github icon" aria-hidden="true"></i></a></p>
+ -->
+<!-- 	</nav> -->
+	</section>
 
-<section class="footer" id="footer">
-<nav>
-	<p class="copyright">© Copyright Takara Small 2017</p>
-	<p class="email">Takara.Small@gmail.com</p>
-	<p class="social">
-	<a href="https://ca.linkedin.com/in/takarasmall"><i class="fa fa-linkedin icon" aria-hidden="true"></i></a>
-	<a href="https://twitter.com/takarasmall"><i class="fa fa-twitter icon" aria-hidden="true"></i></a>
-	<a href="mailto:takara.small@gmail.com"><i class="fa fa-envelope icon" aria-hidden="true"></i></a>
-	<a href="https://github.com/TakaraSmall123/"><i class="fa fa-github icon" aria-hidden="true"></i></a></p>
-</nav>
-</section>
+	<section class="accent" id="accent">
+		<p class="copyright">© Copyright Takara Small 2017</p>
+	</section>
 
 
 <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="

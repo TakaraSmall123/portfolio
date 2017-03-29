@@ -6,6 +6,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 
+@media (max-width: 1080px){
+
+h1 {
+	font-size: 16rem;
+	padding: 0px 20px 0px 20px;
+}
+
+
+}
+
 @media (max-width: 940px) {
 
 	.headline h1 {
@@ -42,15 +52,25 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 		align-items:center;
 		padding-bottom:30px;
 	}
+
+	.aboutMe{
+		height:auto;
+	.aboutMeBox{
+		align-items:center;
+		}
+		.skills{
+			width:80%;
+		}
+	}
+
+
 }
 
 @media (max-width: 840px) {
 	.headline h1 {
 	font-size:12rem;
 	}
-	.social{
-	display:none;
-	}
+
 	.aboutMe .aboutMeBox{
 	flex-direction: column-reverse;
 	display:flex;
@@ -62,6 +82,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 		align-items:center;
 		padding-bottom:30px;
 	}
+	.aboutMe{
+		height:auto;
+	}
+
+
 
  }
  
@@ -70,16 +95,25 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 		font-size:10rem;
 		padding-bottom:10px
 	}
-	.social{
-	display:none;
+	.update2{
+		display:none;
+	}
+
+	nav{
+		font-size: 0.8rem;
+		text-align:center;
 	}
  }
 
 
- @media (max-width: 590px) {
+ @media (max-width: 593px) {
 	.headline h1 {
 		font-size:8rem;
 		padding-bottom:10px
+	}
+
+	.update3{
+		display:none;
 	}
 
 	.other{
@@ -87,6 +121,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 		display:flex;
 		align-items:center;
 		padding-bottom:30px;
+	}
+
+	.aboutMe{
+		height:auto;
 	}
 
  }
@@ -109,8 +147,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 		font-size:3rem;
 	}
 
-	.social{
-	display:none;
+	.skills{
+		padding-bottom: 30px;
 	}
 	
 	.headline {
@@ -191,15 +229,35 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 		font-size: 1rem;
 		}
 	}
+
+	.headline{
+	margin-left: 30px;
+    margin-right: 30px;
+	}
+
+	.aboutMe{
+		height:auto;
+	}
+
+	.update2{
+	display:none;
+}
+
+	.nav{
+	margin-left: 30px;
+    margin-right: 30px;
+	}
+
+
 	}
 
 
 
 @media (max-width: 320px) {
-	.social{
-	display:none;
+	// .social{
+	// display:none;
 
-	}
+	// }
 
 	.iconPage h2{
 		font-size:2rem;
@@ -210,6 +268,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 		justify-content:center;
 		align-items:center;
 		flex-direction:column;
+
 		h1 {
 			font-size:4.5rem;
 			padding-bottom:10px
@@ -223,9 +282,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 		margin:0px;
 		}
 
-		.headline .aka{
-		font-size:1rem;
-		margin-top:40px;
+	.headline .aka{
+	font-size:1rem;
+	margin-top:40px;
 	}
 
 	.resume button{
@@ -257,7 +316,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
     -ms-flex-pack: center;
     -ms-flex-align: center;
     align-items: left;
-	}
+    padding-bottom: 30px;	
+
+}
 
 	.hide p{
 		font-size: 1rem;
@@ -266,6 +327,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 	.show .home{
 		font-size: 1rem;
 	}
+
+
 
   }
 

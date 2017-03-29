@@ -1,12 +1,14 @@
+@import 'partials/variables';
+
 .aboutMe {
-padding-bottom:10vh;
+// padding-bottom:5vh;
+height:100vh;
 padding-top:10vh;
 		button {
 		padding: 10px 45px 10px 45px;
 		font-size:1.5rem;
-		border:3px solid black;
+		border:3px solid $black;;;
 		background-color: white;
-		// padding: 10px;
 		text-align:center;
 		font-weight: bold;
 	}
@@ -15,16 +17,21 @@ padding-top:10vh;
 		padding: 10px 45px 10px 45px;
 		font-size:1.5rem;
 		border:2px solid white;
-		background-color: black;
+		background-color: $black;
 		color: white;
 		text-align:center;
 		font-weight: bold;
 	}
 }
 
+
+.aboutMe h4{
+	font-size: 3rem;
+	margin:0px 0px 30px 0px;
+}
 .aboutMe h3 {
 color:lightblue;
-font-size: 2rem;
+font-size: 1.3rem;
 font-weight: bold;
 margin:0px;
 padding:0px;
@@ -44,27 +51,28 @@ font-size: 12px;
 .aboutMeBox {
 flex-direction: row;
 display:flex;
-width:70%;
+width:60%;
 margin:auto;
 }
+
 
 .resume {
 flex-direction: row;
 display:flex;
 width:100%;
 padding-top: 20px;
-// justify-content:center;
 font-weight: bold;
 }
 
 .aboutMe .fa-chevron-down{
-color:black;
+color:$black;;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 font-size: 2rem;
-padding:0px;
+padding-top:20px;
+padding-bottom:50px;
 }
 
 .position {
@@ -83,23 +91,22 @@ margin:auto;
 
 .introWords p{
 
-font-size: 2rem;
-line-height:30px;
+font-size: 1.6rem;
 margin-right:40px;
+line-height: 22px;
 	span{
-		font-size: 5rem;
+		font-size: 3rem;
 		font-weight:bold;
 	}
 
-	a{
-	color:black;
+	a {
+	color:$black;;
     text-decoration: none;
     border-bottom: 2px solid black;
     transition: all ease-in-out 0.5s;
 }
 
 	a:hover {
-	// color: lightblue;
 	border-color: lightblue;
 	}
 }
@@ -110,23 +117,15 @@ width:50%;
 display: flex;
 flex-direction: column;
 justify-content: center;
-// align-items: center;
+align-items: center;
 }
 
 .skills img {
-width:100%;
+width:80%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-}
-
-.aboutMeTitle{
-padding-top: 20px;
-width: 100%;
-display: flex;
-flex-direction: column;
-margin: auto;	
 }
 
 .profileTitle span{
@@ -138,19 +137,3 @@ flex-direction: row;
 display: flex;
 
 }
-
-// .number {
-// color:black;
-// font-size: 6rem;
-// width:100%;
-// // border: 2px solid red;
-// text-align:right;
-// }
-
-// .years {
-// font-size: 2rem;
-// // border: 2px solid red;
-// }
-// .year{
-// 	font-size:5rem;
-// }

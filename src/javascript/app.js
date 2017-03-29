@@ -5,6 +5,7 @@ $(function(){
   $('#next').slideToggle();
   });
 
+  // $('.T').css(style.backgroundImage = 'url(kittenz.jpg)' 200);
 
 
   console.log('Welcome to my site. Make sure to email me at Takara.Small@gmail.com if you have any questions. ');

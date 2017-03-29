@@ -1,81 +1,82 @@
+@import 'partials/variables';
+
 .titlePage {
 background-color: white;
 height: 100vh;
+}
+
+.update, .update1, .update2, .update3{
+	width:33%;
+	justify-content: flex-end;
+	align-items: center;
+	display:flex;
+}
+
+.line{
+	color:$black;
+	padding-left:10px;
+}
+
+.nav{
+
+flex-direction: row;
+display:flex;
+align-items:center;	
+color: $black;
+padding:10px 0px 10px 0px;
+font-weight:bold;
+font-family:'Lato', sans-serif;
+font-size: 1rem;
+
+}
+
+.logoBox, .socialBox{
+width:50%;
+display:flex;	
+color:$black;
+}
+
+.socialBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color:$black;
+    	span{
+    		font-size:1.2rem;
+    		padding-right:5px;
+    	}
+    // font-size:1.2rem;
 }
 
 nav {
 flex-direction: row;
 display:flex;
 font-size: 1rem;
-justify-content: flex-start;
 margin-left: 60px;
 margin-right: 60px;;
 align-items:center;
 justify-content: space-between;
 font-weight:bold;
-	p {
-	font-size: 1.5rem;
-	font-weight: bold;
-	cursor: hand;
+color: $black;
+	.social{
+	color: $black;
+	font-weight:bold;
+
 	}
-		span{
-			font-weight:bold;
-			font-size: 1rem;
-			padding:2px;
-		}
 }
 
-// .logo{
-// font-weight: bold;
-// padding:5px 15px 5px 15px;
-// font-size: 1.5rem;
-// border: 5px solid black;
-// }
+.logo span{
+font-weight: bold;
+font-size: 1.5rem;
+padding:5px 10px;
+border: 5px solid $black;
+color: $black;
+}
 
-// .logo:hover{
-// background-color: lightblue;
-// padding:5px 15px 5px 15px;
-// font-size: 1.5rem;
-// }
 
-// #hide{
-// display:none;
-// }
-
-// .hidden{
-// display: flex;
-// flex-direction: row;
-// margin-right: 60px;
-// margin-left:60px;
-// color:black;
-// font-weight: bold;
-// justify-content: space-between;
-// display:none;
-// }
-
-// nav #hidden .hidden{
-// display: flex;
-// flex-direction: row;
-// margin-right: 60px;
-// margin-left:60px;
-// color:black;
-// font-weight: bold;
-// justify-content: space-between;
-// display:none;
-// }
-
-// .hide {
-// 	display: flex;
-//     flex-direction: row;
-//     margin-right: 60px;
-//     margin-left:60px;
-//     color:black;
-//     font-weight: bold;
-//      // display:none;
-//     a {
-//     	color:black;
-//     }
-// }
+.logo span:hover{
+	background-color: lightblue;
+}
 
 .next {
 display: flex;
@@ -98,7 +99,7 @@ display:none;
 
 	.fa-bars{
 		padding-left:5px;
-		margin-left:5px;
+		margin-left:10px;
 	}
 
 }
@@ -162,13 +163,13 @@ font-size: 1.5rem;
 
 
 .titlePage .icon {
-padding:5px;
+padding:9px;
 font-size: 1.5rem;
-color:black;
+color: $black;
 }
 
 .titlePage .icon:hover {
-padding:5px;
+padding:9px;
 font-size: 1.5rem;
 background-color: lightblue;
 }
@@ -178,7 +179,7 @@ cursor: hand;
 }
 
 .headline {
-background-color: black;
+background-color: $black;
 height: 85vh;
 margin-left:60px;
 margin-right:60px;
@@ -252,21 +253,9 @@ background-image: url("../../src/images/test.jpg");
 background-size: 100%;
 background-position:cover;
 -webkit-background-clip: text;
+cursor: pointer
 }
 
-.T{
-	    animation-name: tTitle;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes T{
-0% {-webkit-text-fill-color: transparent;
-background-image: url("../../src/images/test.jpg");
-background-size: 100%;
-background-position:cover;
--webkit-background-clip: text;}
-}
 
 .A:hover{
 transform: scale(1.2);
@@ -276,6 +265,7 @@ background-image: url("../../src/images/background.jpg");
 background-size: 100%;
 background-position:cover;
 -webkit-background-clip: text;
+cursor: pointer
 }
 
 .K:hover{
@@ -286,6 +276,7 @@ background-image: url("../../src/images/brain_new.png");
 background-size: 100%;
 background-position:cover;
 -webkit-background-clip: text;
+cursor: pointer
 }
 
 .R:hover{
@@ -296,41 +287,15 @@ background-image: url("../../src/images/cake.jpg");
 background-size: 100%;
 background-position:cover;
 -webkit-background-clip: text;
+cursor: pointer
 }
 
 .headline .fa-chevron-down {
 margin-top:30px;
 color: white;
 background-size: 30px;
-font-size: 1.5rem;
-padding-top:10px;
+font-size: 2rem;
+// padding-top:10px;
 }
 
 
-
-// }
-
-// span.alternateJob:before {
-//     content: "";
-//     font-size: 6rem;
-//     animation-name: jobTitle;
-//     animation-duration: 20s;
-//     animation-iteration-count: infinite;
-// }
-// @keyframes jobTitle {
-//     0% {opacity: 0; background-photo: "Midnight Snacker"}
-//     10% {opacity: 1; content: "Midnight Snacker"}
-//     19% {opacity: 0; content: "Midnight Snacker"}
-//     20% {opacity: 0; content: "Bonafide Hustler"}
-//     30% {opacity: 1; content: "Bonafide Hustler"}
-//     39% {opacity: 0; content: "Bonafide Hustler"}
-//     40% {opacity: 0; content: "Erratic Dancer"}
-//     50% {opacity: 1; content: "Erratic Dancer"}
-//     59% {opacity: 0; content: "Erratic Dancer"}
-//     60% {opacity: 0; content: "Punball Wizard"}
-//     70% {opacity: 1; content: "Punball Wizard"}
-//     79% {opacity: 0; content: "Punball Wizard"}
-//     80% {opacity: 0; content: "Cookie Maker"}
-//     89% {opacity: 1; content: "Cookie Maker"}
-//     100% {opacity: 0; content: "Cookie Maker"}
-// }

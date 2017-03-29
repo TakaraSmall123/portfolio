@@ -3,14 +3,22 @@
 @import 'partials/iconPage';
 @import 'partials/examplePage';
 @import 'partials/footer';
+@import 'partials/variables';
 @import 'partials/setupPage';
+
+body{
+color: $black;
+// margin-left:60px;
+// margin-right:60px;
+}
 
 html {
 font-size: 62.5%;
 }
 
 p {
-font-family: 'Lato', sans-serif;
+font-family: 'Roboto';
+color:$black
 }
 
 h2{
@@ -22,5 +30,17 @@ h1, h2 h3, h4{
 font-family: Raleway,Helvetica,sans-serif;
 font-weight:bold;
 }
+
+button {
+	a:visited {
+		color:inherit;
+	}
+
+
+}
+
+
+
+
 
 
