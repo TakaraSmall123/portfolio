@@ -4,10 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Takara Small</title>
-	<link rel="stylesheet" href="animate.min.css">
 	<link rel="stylesheet" type="text/css" href="src/CSS/style.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
@@ -15,14 +13,13 @@
 </head>
 
 <body>
-<!-- CURRENTLY WORKING ON NAV PORTION -->
 <section class="titlePage">
 <nav class="nav show">
 	<div class="logoBox">
   	<p class="logo"><span>T</span></p>
 	</div>
 	<div class="socialBox">
-	<div class="update"><p class="social"><span>CONTACT</span><a href="mailto:takara.small@gmail.com"><i class="fa fa-envelope-o icon" aria-hidden="true"></i></a></i></div> 
+	<div class="update"><p class="social"><span>EMAIL</span><a href="mailto:takara.small@gmail.com"><i class="fa fa-envelope-o icon" aria-hidden="true"></i></a></i></div> 
 	<div class="update2">
 	<a href="https://twitter.com/takarasmall?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa fa-twitter icon" aria-hidden="true"></i></a>
 	<a href="https://github.com/TakaraSmall123/"><i class="fa fa-github icon" aria-hidden="true"></i></a>
@@ -31,14 +28,14 @@
 	</div><div class="update3"><span>MENU</span><i class="fa fa-bars icon" aria-hidden="true"></i></p></div>
  </nav>
 
- <nav class="nav hidden">
+ <nav class=" nav hidden">
 	<div class="logoBox">
   	<p class="logo"><span>T</span></p>
 	</div>
 	<div class="socialBox">
-	<div class="update"><p class="social"><span>ABOUT</span><i class="fa fa-id-card-o icon" aria-hidden="true"></i></i></div> 
+	<div class="update"><p class="social"><span>ABOUT</span><a href="#aboutMe"><i class="fa fa-id-card-o icon" aria-hidden="true"></i></a></div> 
 	<div class="update2">
-	<p><span>PORTFOLIO</span><i class="fa fa-file-code-o icon" aria-hidden="true"></i></p>
+	<p><span>PORTFOLIO</span><a href="#portfolio"><i class="fa fa-file-code-o icon" aria-hidden="true"></i></a></p>
 	</div>
 	<div class="update"><span>MENU</span><i class="fa fa-bars icon" aria-hidden="true"></i></p></div>
  </nav>
@@ -170,7 +167,7 @@
 			<h3>APOCALYPSE SURVIVAL</h3>
 			<h4><span>TOOLS:</span> React, Javascript, CSS, Animation, APIs + more</h4>
 			<p>Ever wonder what life would be like post-apocalypse? Now you can find out by playing out your worst nightmare (or is it your ultimate dream come true?) with this survivor game.</p>
-				<button><a href="https://zombie-apocalypse-23380.firebaseapp.com" target="_blank">VIEW LIVE</a></button>
+				<button><a href="http://takarasmall.tech/apocalypse/" target="_blank" >VIEW LIVE</a></button>
 		</div>
 	</div>
 
@@ -179,10 +176,10 @@
 			<h3>HOW HACKERS ARE STEALING YOUR DATA</h3>
 			<h4><span>TOOLS:</span> APIs, JQuery, CSS, ES6  + more </h4>
 			<p>Computers are not great for storing secrets. The number of reported data breaches at U.S. organizations hit a total of 783 in 2014, according to the Identity Theft Resource Centre, an industry body. Take a look at this site to find out the latest breaches and if your personal information has been hacked.</p>
-			<button><a href="http://www.takarasmall.tech/hacking_data/" target="_blank">VIEW LIVE</a></button>
+			<button><a href="http://www.takarasmall.tech/hackers/" target="_blank">VIEW LIVE</a></button>
 		</div>
 		<div class="portImage2">
-			<img src="../../src/images/a-1.jpg" alt="Hacking website" />
+			<img src="../../src/images/hack.jpg" alt="Hacking website" />
 		</div>
 	</div>
 
@@ -214,31 +211,27 @@
 
 	<section class="footer" id="footer">
 
-<div class="contact-text">
-<h3> CONTACT ME</h3>
-<div class="contact-form">
-<div role="form" class="wpcf7" id="wpcf7-f62-o1" lang="en-US" dir="ltr">
-<div class="screen-reader-response"></div>
-<form action="https://formspree.io/takara.small@gmail.com" method="POST">
-<!-- <div style="display: none;">
-<input type="hidden" name="_wpcf7" value="62" />
-<input type="hidden" name="_wpcf7_version" value="4.4" />
-<input type="hidden" name="_wpcf7_locale" value="en_US" />
-<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f62-o1" />
-<input type="hidden" name="_wpnonce" value="91094cc1ab" />
-</div> -->
-	<div class="form-top">
-<p class="name">
-    <span class="name"><input type="text" name="formName" value=""  placeholder="Full Name" /></span> </p>
-<p class="email">
-    <span class="email"><input type="text" name="formEmail" value=""  placeholder="Email" /></span> </p>
-</div>
+<div class="formContainer">
+		<div class="contact-text">
+		<h3> CONTACT ME</h3>
+		<div class="contact-form">
+		<div role="form" class="wpcf7" id="wpcf7-f62-o1" lang="en-US" dir="ltr">
+		<div class="screen-reader-response"></div>
+		<form action="https://formspree.io/takara.small@gmail.com" method="POST">
+			<div class="form-top">
+		<p class="name">
+		    <span class="name"><input type="text" name="formName" value=""  placeholder="Full Name" /></span> </p>
+		<p class="email">
+		    <span class="email"><input type="text" name="formEmail" value=""  placeholder="Email" /></span> </p>
+		</div>
 
-<p class="message">
-    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="6" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Leave a Message"></textarea></span> </p>
-<p class="submit"><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" /></p>
-<div class="wpcf7-response-output wpcf7-display-none"></div>
-</form>
+		<p class="message">
+		    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="6" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Leave a Message"></textarea></span> </p>
+		<p class="submit"><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" /></p>
+		<div class="wpcf7-response-output wpcf7-display-none"></div>
+		</form>
+	</div>
+
 </div>
 	    	
 <div class="contact-fields">

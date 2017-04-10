@@ -1,18 +1,9 @@
 $(function(){      
 
   $('.fa-bars').click(function(){
-  $('.nav').toggleClass('show');
-  $('.nav').toggleClass('hide');
+  $('.nav').toggleClass('show')
+  $('.nav').toggleClass('hidden');
   });
-
-
-//   $('.navBurger').on('click', function(){
-//     $('.bar').toggleClass('active');
-//     $('nav').toggleClass('hide');
-//   });
-
-
-  // $('.T').css(style.backgroundImage = 'url(kittenz.jpg)' 200);
 
 
   console.log('Welcome to my site. Make sure to email me at Takara.Small@gmail.com if you have any questions. ');

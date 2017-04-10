@@ -2,6 +2,9 @@
 
 //contact section 
 
+.formContainer{
+width:100%;
+}
 .footer{
   background-color: $black;
   display:flex;
@@ -16,8 +19,11 @@
 }
 .contact {
   display:flex;
-
-
+}
+.contact-fields{
+  color:white;
+  text-align:center;
+  font-size: 1rem;
 }
 .contact-text {
   width:60%;
@@ -25,6 +31,7 @@
   font-size:1rem;
   background: $black;
   font-family: 'Roboto';
+  margin: auto;
 }
 
 input, textarea {
@@ -33,7 +40,7 @@ input, textarea {
   }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: $black;
+  color: lightgrey;
   font-weight:bold;
   font-size:1.5rem;
 }
@@ -44,12 +51,18 @@ input[type=submit]{
   font-size:1.5rem;
 }
 
-.extras a {
-  color:white;
-  font-size:2.3rem;
-  padding:10px;
+.extras {
+    
+    p {color:white;
+      font-size: 1.2rem;
+    }
+      a {
+      color:white;
+      font-size:2.3rem;
+      padding:10px;
 
 }
+  }
 
 .contact-image {
   margin:auto;
@@ -177,9 +190,7 @@ div.wpcf7-response-output {
 }
 
 .copyright {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 90px;
+text-align: center;
 }
 
 .footerlogo{

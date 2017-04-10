@@ -31,7 +31,7 @@ font-size: 1rem;
 }
 
 .hidden {
- flex-direction: row;
+flex-direction: row;
 display:flex;
 align-items:center; 
 color: $black;
@@ -40,6 +40,7 @@ font-weight:bold;
 font-family:'Lato', sans-serif;
 font-size: 1rem;   
 display:none;
+cursor: hand;
 }
 
 .logoBox, .socialBox{
