@@ -58,6 +58,9 @@ margin:auto;
 .resume {
 flex-direction: row;
 display:flex;
+align-items: center;
+display: flex;
+justify-content: center;
 width:100%;
 padding-top: 20px;
 font-weight: bold;
@@ -91,7 +94,7 @@ margin:auto;
 .introWords p{
 
 font-size: 1.6rem;
-margin-right:40px;
+// margin-right:40px;
 line-height: 22px;
 	span{
 		font-size: 3rem;

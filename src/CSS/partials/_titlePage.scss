@@ -30,6 +30,10 @@ font-size: 1rem;
 
 }
 
+.fa-bars{
+cursor: pointer;
+}
+
 .hidden {
 flex-direction: row;
 display:flex;
@@ -86,10 +90,6 @@ border: 5px solid $black;
 color: $black;
 }
 
-
-.logo span:hover{
-	background-color: lightblue;
-}
 
 .next {
 display: flex;
@@ -226,7 +226,6 @@ font-size: 1.5rem;
 color: white;
 padding: 10px 45px 10px 45px;
 margin-bottom:10px;
-// font-style: italic;
 border: 2px solid white;
 font-weight: bold;
 }
